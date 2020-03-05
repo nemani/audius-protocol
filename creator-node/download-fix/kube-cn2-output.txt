@@ -1,0 +1,1308 @@
+PROCESSING ROW #1: 0b228d2d-d480-45a5-bdda-26590fc2791d.mp3, dfc2eaee-c306-4106-bd24-351942ef137e, 55aa33f5-75b6-4625-82f3-93729a263eb4, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 1000
+PROCESSING ROW #2: 76d4ccf0-7fe6-4109-96f2-0fb62a5cf368.mp3, a65cfa39-8c39-4101-9ed3-1bf4d546c207, 400d2c2e-810c-4daf-847f-f7bbd4ea7e66, QmVqzmARy81tia8bVKJugs6FDqsWhKZp3tSJ4KUkXF7bEQ, /file_storage/QmVqzmARy81tia8bVKJugs6FDqsWhKZp3tSJ4KUkXF7bEQ
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 1000
+PROCESSING ROW #3: 5accf392-c396-4398-9d93-eaca73bae67e.mp3, 5b431d44-fa10-436f-8699-423fc71d709e, dec374eb-b921-4e50-9204-ef8e0c124252, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 1000
+PROCESSING ROW #4: c392d1f3-9c4a-49b5-b988-a4e706e6b58c.mp3, cdd1f3c7-319d-4d2b-bf73-313e16efe2a1, cdb08a75-fea4-46ca-a3c7-494360838ca0, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 1000
+PROCESSING ROW #5: e27d6502-06b1-473e-a1f2-b1992b05165c.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, d12960ba-d45c-43b9-bca5-e09542f7200d, Qmao3aaN2uZu1tCrF4nXWCUYk83ZaHbAHdn7Hj3CdRiRc3, /file_storage/Qmao3aaN2uZu1tCrF4nXWCUYk83ZaHbAHdn7Hj3CdRiRc3
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 1000
+PROCESSING ROW #6: ade131a2-8290-4233-85c5-5ba64886202a.mp3, 846de485-02a3-41de-b7ed-7fc2352056bb, 21094830-998a-473f-816f-81f8f512477a, QmShGmdf4MURrfcaJHKmUQ28Xt4jN245ezJ7nJTpQaKV3F, /file_storage/QmShGmdf4MURrfcaJHKmUQ28Xt4jN245ezJ7nJTpQaKV3F
+PROCESSING ROW #6: ade131a2-8290-4233-85c5-5ba64886202a.mp3, 846de485-02a3-41de-b7ed-7fc2352056bb, 21094830-998a-473f-816f-81f8f512477a, QmShGmdf4MURrfcaJHKmUQ28Xt4jN245ezJ7nJTpQaKV3F, /file_storage/QmShGmdf4MURrfcaJHKmUQ28Xt4jN245ezJ7nJTpQaKV3F
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #7: 21451747-1fa8-42b4-b17c-8d255aac0f49.mp3, 07620b37-3d3d-4b23-be56-d5227bdefe4d, dbef846d-e8c7-461c-ad37-77198fa607e6, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #8: a27903eb-f984-42e9-8e30-d2128378e7fb.mp3, 6c3c242e-451a-4e95-8956-224db624bb19, 685417d4-186f-44bd-b587-94ba42e8f322, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #9: e564487b-28c8-405e-81c1-49de2ff3dd54.mp3, e13a217e-a74e-4c34-877a-bc38b2420515, dafe8e22-dbdf-4138-95e4-92abac27041b, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #10: 66d2ca2f-5f16-4845-bf36-e9b698a22a9d.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 997f723a-4947-4621-a211-081eb8cac704, QmasVQZoYbHFUduHG4Fh3zJTidShy6M2sheUP2pnuamT2v, /file_storage/QmasVQZoYbHFUduHG4Fh3zJTidShy6M2sheUP2pnuamT2v
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #11: af2a5fb7-4948-448b-b793-d3f986eda1e8.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, acd09307-fec5-4464-a41d-7cdeffd021b7, QmajxrW4gyWZR1HrAz3DPGby8HLe2a6iBkBdWDyFVyUbH5, /file_storage/QmajxrW4gyWZR1HrAz3DPGby8HLe2a6iBkBdWDyFVyUbH5
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #12: 5026fc48-60a0-4c14-bfd2-f05ed1b9e86c.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 28d77906-b62b-4e25-8532-a6961363818d, QmRKJ9xvtKn49yejP7iZCyotkqqmwa8kXQUjhPRguhk1k7, /file_storage/QmRKJ9xvtKn49yejP7iZCyotkqqmwa8kXQUjhPRguhk1k7
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #13: 3d2cb55c-9803-4b9b-a52a-73129b5eb7fa.mp3, 47b56757-b39d-4ddb-bb5a-4ee308a427d9, 76e8bfc5-b1ca-49c3-82a3-ef3f95cffcae, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #14: aa29fd1c-a88f-47c2-92fa-709c835dfe73.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 8ae7853c-91cd-4e4b-bec4-f539da648776, QmNxYqKXjVb1U3HdjDYbwo3EWCwxpj8ygukjjMJHSo1UtY, /file_storage/QmNxYqKXjVb1U3HdjDYbwo3EWCwxpj8ygukjjMJHSo1UtY
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #15: 6ac3eb14-574a-43ef-9b1e-559fbc9b2bc8.mp3, 7eebd289-80aa-46d8-93ba-fbf49d12f054, 7a1e6fd8-b629-4a0b-994d-e9485256100d, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #16: e87fe08c-c6eb-46a8-80e7-f5cce5277dc0.mp3, e76de2ec-43f5-49ea-8c12-999b0322451b, 1bc82117-dadf-481e-bb39-1764cae6497b, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #17: 3eb3f695-5006-4e9b-864e-f623c6a825ae.mp3, 24a50328-8f9e-44f8-ac6c-3e6cd184a970, e0222987-96ae-4de1-81bc-30b4cf1e16e4, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #18: a5abeb11-6aaa-4128-a3d8-d0eaf947d719.mp3, 1c3af114-db9e-465a-a4ab-af8e0baa0e91, 9dd17bea-b5dc-41fe-8796-568eb1ad65b4, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #19: ebfe2343-949d-428b-b759-dd1f5840c05b.mp3, 9543d164-55c5-405c-82fd-0c9c6f01cd78, 7059938d-38fc-4044-af42-3da8860677d6, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #20: 00b93741-db56-49bb-9c48-9f2dfced6648.wav, d612a6c5-3077-4f3a-99a1-32c63308258f, e7a1152e-7ea5-4373-b09b-3094ba19fdd3, QmTM3FFj7BzQWWxeWFNhij2HBNXAM3vFQWobhnn7wAvXqC, /file_storage/QmTM3FFj7BzQWWxeWFNhij2HBNXAM3vFQWobhnn7wAvXqC
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #21: 963d80b0-ab1c-45e9-a5eb-d78af31edeff.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 2fa586d8-91b6-4c49-be02-87dd851ab870, QmbqjTmveubJWtajzya2x9QRDkawKZVZ3nuKrwhGRG8nLG, /file_storage/QmbqjTmveubJWtajzya2x9QRDkawKZVZ3nuKrwhGRG8nLG
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #22: 904f0ae1-58a2-4c12-8452-40d88d0caa9a.mp3, 6b0e6f13-b733-4a52-90e7-f8e7e144e1cc, 7201f18a-135c-4069-a7dc-cf662156b78e, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #23: ac4df8e0-0815-4c36-bee6-655cda849a2d.mp3, 605b9175-fbdd-4cf4-ade6-684438f06f1f, b14d7c9f-5d7d-4739-bfda-aae89ecce2d8, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #24: 38d48582-bf52-4452-bf33-368d7365eb57.mp3, d17763a2-53ec-4ded-b2df-522c5bbd6027, 25375ff7-36a8-4e41-829c-0c01865f14e1, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #25: 2e91ee65-dc60-488a-8c46-4f378676fa40.mp3, 4f0c3f87-ff1a-4516-b917-83e4bae4b746, ca6b7a39-7a85-4048-a6e6-316d2769379a, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #26: e06cf46e-ad0c-4081-910a-8d68fb726199.mp3, b67a04de-52ae-4e83-a7e7-aa439a9cbbdd, 531d87e7-5b2f-4878-a0f6-77dd5d4b2716, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #27: 28a9f128-7479-4b88-96f1-2edf9ff6051e.mp3, 97ad9d7d-c2a2-4158-92aa-e838cd8ca866, 6690bde7-ca52-4300-a973-6440d241732b, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #28: af1f2954-46eb-4d7a-8e64-97844ae66362.wav, a4182ee5-2db5-401b-812d-00fcdda4e06b, 03614a71-f4ba-4614-ad8d-82bfabac0bdc, Qmdxo2vjJwcWJwQ6jxjay7V7FXd7V7ko4Kt557vpQ4h9rN, /file_storage/Qmdxo2vjJwcWJwQ6jxjay7V7FXd7V7ko4Kt557vpQ4h9rN
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #29: bb07ba82-a7f4-4d0c-b90d-405a6e83d55d.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, f494d35a-352d-40e5-8378-48966f4ef568, QmTGtXeuvUCpUsiNhs1rVtoffzUR2TjxiTJLFHkNDB9Jfr, /file_storage/QmTGtXeuvUCpUsiNhs1rVtoffzUR2TjxiTJLFHkNDB9Jfr
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #30: c580cbb7-4876-4c40-99c4-e61089a637f1.mp3, 981a5026-6a7c-4cc0-9d23-a990203806e0, 420e2e3f-e273-4df5-af27-d0a569e5ea9d, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #31: 5b3d941d-17b8-4ea2-a595-1ae880a40d34.mp3, 037d2dc8-f0fd-4e7a-8921-14b40eb455a9, 18bc0c0f-f8df-4c27-8fd3-71cae1103ac6, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #32: 535bcb9c-7ed4-4240-9e73-b8574fe306e1.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 2b88514a-030d-4dac-aed0-905b15b8b01d, QmYgj6FvmUQxdbAdcyihjChK3N6EQFRTHKdw1RsBA9fdRf, /file_storage/QmYgj6FvmUQxdbAdcyihjChK3N6EQFRTHKdw1RsBA9fdRf
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #33: fd21cd0b-2952-440b-aed7-b74b37c2934a.mp3, 8ccd0cee-3f5e-4d6e-822e-9de0971f610d, 1b887024-968d-4cfd-9c70-1aa04f535c3f, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #34: b1e14c08-36db-429a-9cc0-2d2eb1391699.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 04327cf5-40b0-4bcf-a4c1-d3c9f2102c8d, QmPqnYz92ChiRePFEag6jaihB7tXQerfcyXHPUQyTJr9nn, /file_storage/QmPqnYz92ChiRePFEag6jaihB7tXQerfcyXHPUQyTJr9nn
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #35: cd6e5cc2-fb8e-4927-9732-622449eb5d23.mp3, bb196d44-9077-4f6e-af74-b9474622a45f, b57a2b7f-de23-4ba5-95b6-1726a8171882, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #36: 6b875bf8-2c07-4f8c-9a4f-7207f92cc634.mp3, c916d930-a9cc-49bb-9975-07abf56f1f88, 75c0fc0e-7477-4521-b3f9-c6860ce28c6f, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #37: 7ae0a05e-9ac9-4980-84e8-2c51b1d5bf56.mp3, c3d646a9-a910-475d-916a-5469e298bcc3, 0eb9f3de-5909-4b62-b8b1-2397f502b435, QmUWJ7Zmka7d1czySWFJRFiSFb6egVnfKBYr6xdTN3CPuN, /file_storage/QmUWJ7Zmka7d1czySWFJRFiSFb6egVnfKBYr6xdTN3CPuN
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #38: c98ac062-6138-4498-a6af-dabf67035287.mp3, 3968c73f-124d-4179-ac57-66271987404c, 58c7699e-d3c2-4701-804c-ea60375e42ce, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #39: d9cc735c-076f-4a83-89ad-95d1869bb842.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 3d9122b6-30af-4774-96de-9900cab37aa2, QmSPjBeNiARhVSG4scF3WPrb14bKLmm3hNbD7N2D1UU95e, /file_storage/QmSPjBeNiARhVSG4scF3WPrb14bKLmm3hNbD7N2D1UU95e
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #40: ebfa39d0-68d9-4a6f-a87a-5da7797c7c18.wav, 1192ff87-1e8e-4c56-8ffa-5caa0b06024b, 3100b0ec-195c-4cab-9f1f-bac7191cc582, QmX9ffyKwNhpeztM7VrUuv3sooKYm76yvF5YoAdECKbpyJ, /file_storage/QmX9ffyKwNhpeztM7VrUuv3sooKYm76yvF5YoAdECKbpyJ
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #41: f5a5eabb-c82b-4a6e-b53c-f893ba8f8bfc.mp3, 8795b8dd-2c71-4163-8d91-5a2f25072272, 8b4a0d7a-7fa7-4b6f-8107-85a42a13a41b, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #42: 948c6931-0316-4253-80df-1f5631f4821a.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 8382f350-a009-4c37-91de-d1ac545d0070, Qme4jTYG8h2nVka5BqqgVqkyf25KqhJAkHn1Kyn9Gznuiz, /file_storage/Qme4jTYG8h2nVka5BqqgVqkyf25KqhJAkHn1Kyn9Gznuiz
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #43: 333fc0ad-0d23-4ffa-b2f4-3ab24bddda42.wav, a4182ee5-2db5-401b-812d-00fcdda4e06b, 466e081d-1252-493d-a240-751039e34318, QmVBoNxenLv7PQcm8KfDtXwEfJnUnoqc3buNweGpmtgJST, /file_storage/QmVBoNxenLv7PQcm8KfDtXwEfJnUnoqc3buNweGpmtgJST
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #44: 36ce5db1-527e-41ae-9383-3c545b598a6a.mp3, ed7a162e-1602-49de-b6ec-f86b72a3c0d7, 60175723-6c74-4b60-851f-099fe5fe45ec, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #45: f0acca7b-f82c-4d6f-83fb-04aa0b803d86.mp3, 96844458-9ac2-413f-8e5f-912aae99c88f, 0428251d-cea0-433c-9228-11846aaf91a9, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #46: c9979183-3fdb-4d16-b4fd-6a2998236499.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, ac5d8084-cc81-4701-842f-8b509e8f182f, QmWyfpnrKaJHQcJXsM2tp5AfMfEs8gj4LsW9N7KM38pf5Q, /file_storage/QmWyfpnrKaJHQcJXsM2tp5AfMfEs8gj4LsW9N7KM38pf5Q
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #47: 0df34c3b-b78d-47ee-b00b-30110c176490.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 9b5a691c-a4e8-436b-9441-4e7697fb9553, Qmf6HUMWvWnByq7FeS9tPPSCfsWrWai8Suz4AA9J7LtT52, /file_storage/Qmf6HUMWvWnByq7FeS9tPPSCfsWrWai8Suz4AA9J7LtT52
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #48: 49b24a1c-81bf-4854-9cd0-7f7d13a6061b.mp3, fdab2500-5b3f-4e48-89e4-56cdf273d2d8, d43d757c-80ec-482c-9309-46256ac4bf69, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #49: 4de8adff-15f6-4c2e-9137-15c256ca2c63.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, ed552f7d-abfd-4a0b-b4f7-35478687432a, QmeZQSb2U9gArw53oknNYddq1zt2r79TptFMC4ubnVJBFU, /file_storage/QmeZQSb2U9gArw53oknNYddq1zt2r79TptFMC4ubnVJBFU
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #50: 0f01b9df-777f-45d4-a431-5e1e2e791ba1.mp3, 418d2bbc-4c23-45c3-9904-651a350ec6e5, b0f118ba-449d-4e6b-ab93-65a619fb53ee, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #51: 487c849a-30a8-451f-9a40-b34551521c5e.mp3, c3d646a9-a910-475d-916a-5469e298bcc3, 91a6b2ca-bd37-44ac-b278-c3f9986fb6c1, QmaQL3bs25B8k8i157SuGH3gKokePYAVrrZGBvQddWo7UU, /file_storage/QmaQL3bs25B8k8i157SuGH3gKokePYAVrrZGBvQddWo7UU
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #52: 59753bdd-a309-43a4-85e5-c692759b4f61.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 48547ea5-4f4d-4963-9fe7-2e85e8b7724a, QmfNjUpVp3v6VaezDX8KmSSN8PTLG6mPPcAzzx3KQCPr4g, /file_storage/QmfNjUpVp3v6VaezDX8KmSSN8PTLG6mPPcAzzx3KQCPr4g
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #53: 8e7e6efa-2b0f-4759-bfdd-41872392f152.mp3, 2b41560d-4158-465b-a4ff-961e895f806c, 63d1762e-c296-4d41-a162-dd45080b7921, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #54: 46efe851-9c5e-4ead-ba0c-49191377836b.mp3, 39e2016f-929d-4a2d-b209-c1c02e2e390e, e3a14295-6acb-4180-97a7-0e56c217448e, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #55: 7e73ea7e-c9f3-46a9-9720-7b71885c2909.mp3, a01249eb-ce1c-440e-b4af-855f1dc35262, 707f7959-f688-47a6-9d87-7b51524010b4, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #56: 90fa850e-0c52-4dfc-894c-302f413b6bb8.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, df3f1f2e-1a5f-4a8e-bb26-f30f0d14986f, QmNeph51PxbJAKsE6vi7hG32qXATTHoi9yNSNja5qfbrjR, /file_storage/QmNeph51PxbJAKsE6vi7hG32qXATTHoi9yNSNja5qfbrjR
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #57: 57b8cf98-5cfd-4289-8b0d-f369c9c7f7c5.mp3, 846de485-02a3-41de-b7ed-7fc2352056bb, a41eae15-d101-461b-a13e-64fe6fc1917a, QmSHY6vt2F72YHuV68C2ePoiMUnQSauPigac6NVttEHUWv, /file_storage/QmSHY6vt2F72YHuV68C2ePoiMUnQSauPigac6NVttEHUWv
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #58: 6fdafbd5-4cf2-4af1-a061-583c78699d3b.wav, d612a6c5-3077-4f3a-99a1-32c63308258f, d289d40a-97fc-4291-8b01-6bcdfa008a29, QmTM3FFj7BzQWWxeWFNhij2HBNXAM3vFQWobhnn7wAvXqC, /file_storage/QmTM3FFj7BzQWWxeWFNhij2HBNXAM3vFQWobhnn7wAvXqC
+duplicate multihash - QmTM3FFj7BzQWWxeWFNhij2HBNXAM3vFQWobhnn7wAvXqC. skipping
+PROCESSING ROW #59: 2357099b-cb16-4049-ae07-ccd28d029000.mp3, b0f1cb88-7a7a-4869-9ac6-f77040dcf211, cc38f2b5-afdc-4ee9-95ad-624ded8ebd5a, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #60: f68ae040-9c21-4883-9c44-b88a15738c0d.mp3, 57c56d2e-cbda-4756-83f0-4958d3a59de6, 9b7bee06-6929-4373-9db8-2f7f6118b38c, QmV9nviHq3XYgRSvYEmKzsq5RvezL4QnDkEfh3vswgkFSY, /file_storage/QmV9nviHq3XYgRSvYEmKzsq5RvezL4QnDkEfh3vswgkFSY
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #61: 1f8e202f-9095-4c94-920b-945853cd908a.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 549f94f4-aba6-4660-91f9-755086542aed, QmXsojfUUYcfrVzxG1euYk3d6TFXibZjrvvHzHi1mHPibd, /file_storage/QmXsojfUUYcfrVzxG1euYk3d6TFXibZjrvvHzHi1mHPibd
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #62: b497753a-b3ff-4ac2-9ab9-9e11a3056008.mp3, d2342a3b-d8ba-40df-8db9-a9a3d81c5554, e329a709-f56b-41eb-a146-538ab7e722b8, QmQLrYxWsyByEU6EeojyZDDTWWujAnTzQhmGUc4tYqMhBU, /file_storage/QmQLrYxWsyByEU6EeojyZDDTWWujAnTzQhmGUc4tYqMhBU
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #63: c003bcdd-1f08-4644-afa9-6c3472ebfcbf.mp3, 06d17fcc-249e-4a1c-9252-e639a64da68a, 40209db1-9cf6-469c-ae18-527cbf73ac06, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #64: 30404b9e-82ff-454b-bb7e-fc2252a42613.mp3, 57c56d2e-cbda-4756-83f0-4958d3a59de6, e590ab5f-6e31-4840-a67f-08eeea3bb026, QmRi9G9WvLuMzhbhDRs4Cg48Bnx1VmypDd9yEGkRKkeTq1, /file_storage/QmRi9G9WvLuMzhbhDRs4Cg48Bnx1VmypDd9yEGkRKkeTq1
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #65: 62ee3941-f1a6-493d-9811-c060f7f507d4.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 763d16f3-f43d-4990-ae43-d16a01654ad8, QmTvXoLjF2TPrGTnmRYN74DfkaGsEcqxTg8keSyacgM4Ah, /file_storage/QmTvXoLjF2TPrGTnmRYN74DfkaGsEcqxTg8keSyacgM4Ah
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #66: 731f2deb-7a3b-4ffa-b10d-004a9c4486e6.mp3, 516d97a9-e2ba-4e6f-9a86-ed1cfa16f105, 454d208f-69c8-42cc-a686-005b0e10b817, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #67: 12651dbc-59dd-4c82-a756-470aa9f6c4fd.mp3, 1192ff87-1e8e-4c56-8ffa-5caa0b06024b, b66c530a-5777-4538-a203-3e084c75c11d, QmXzuzuHiTTmPJsBr9xZjJ3E1UHss44jRpUBbmXkpNpQno, /file_storage/QmXzuzuHiTTmPJsBr9xZjJ3E1UHss44jRpUBbmXkpNpQno
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #68: ce2ab67d-0b5d-4be8-a54a-3189ee42d5a6.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, c322b54d-9c0f-4435-9e94-002c332755db, QmV7KQEDm4kapGt8DoNaBnXtcY4zhQkAx1rkHxvtcujhSW, /file_storage/QmV7KQEDm4kapGt8DoNaBnXtcY4zhQkAx1rkHxvtcujhSW
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #69: 861c537f-aa40-4b99-9e8c-5b629b7aa56c.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, b6e66321-04e3-4f5d-bfe4-64cdabe0817f, QmaoG1Z25dm96QFURjaDLNzyfUHzwLzjKMFfgM8R4KzN7L, /file_storage/QmaoG1Z25dm96QFURjaDLNzyfUHzwLzjKMFfgM8R4KzN7L
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #70: cbcee482-825e-4148-82cb-c8e668dabaa5.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 050908cd-551b-4367-a2f0-4e04180a368f, QmaVdaRMxvcmHarHmQAwhZ8UxpWGytbrN3xA62tq4FLPrW, /file_storage/QmaVdaRMxvcmHarHmQAwhZ8UxpWGytbrN3xA62tq4FLPrW
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #71: 2a46ce47-7569-4b8a-b792-5f7cadda55ee.mp3, d6bf0c6f-4242-4094-93ca-64ad4bf7bb65, f407331f-6e36-4702-bd6d-7fc5996328c3, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #72: 38936b56-3228-441a-845a-b05693a6d1ca.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, f17807f1-443a-4ca3-bef6-291615111e4a, QmNwsw9vUqDfY4XazBAETBm6j5d7hsVDvs5a3vwBH8bVr7, /file_storage/QmNwsw9vUqDfY4XazBAETBm6j5d7hsVDvs5a3vwBH8bVr7
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #73: ad9d7650-8e0c-4d3f-b920-056296acaaf7.mp3, b083963e-d905-48af-aec6-1b5913f22071, c2431528-1fce-4234-8d3a-164cb7a9bfc2, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #74: 0d6cf46d-f82e-4f6b-a26b-8fa82f8ab8e0.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 6c526cf7-369e-4474-a6be-9faa22f54447, QmbxJ1tu9V6DB4bNGTvgsfoYwUeZZxHmo5ovQYGwvVCxyd, /file_storage/QmbxJ1tu9V6DB4bNGTvgsfoYwUeZZxHmo5ovQYGwvVCxyd
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #75: f5115316-cabd-4b8f-8057-3bc6fb5bc167.mp3, b9026736-a4f3-45b8-b570-ebf9ab04decb, 83a99e8e-3913-4726-82f9-6ac08c288624, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #76: b64063bc-417a-4de0-84af-a9e7a8f8138a.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, f843be1f-d392-43df-bad5-5985bf575d8d, QmNTNmjzCqhPArgCE8zBar58tPPS7kUo9hcQTbGq4yiU7R, /file_storage/QmNTNmjzCqhPArgCE8zBar58tPPS7kUo9hcQTbGq4yiU7R
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #77: 70893303-296e-49cf-9084-401c948060f4.mp3, d5071986-1b9b-4782-953c-eef0d29edc56, f781dcbe-9741-4118-bbf2-1c82c8073e8a, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #78: 1ad30e5d-d54f-4ff8-b579-fb7559ce5bc7.mp3, 02a15316-5880-4380-8e54-9d43d9dcbb61, 784bfb3c-44c6-4bcb-a16d-c838a2a6016a, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #79: b6341a6f-9bd3-4c7b-9ece-6ab33c040233.mp3, 2e171be8-d0c6-4a23-a7c5-848eda55b52a, fcb0a4a5-7076-4900-baa2-013b3b97e668, QmQLrYxWsyByEU6EeojyZDDTWWujAnTzQhmGUc4tYqMhBU, /file_storage/QmQLrYxWsyByEU6EeojyZDDTWWujAnTzQhmGUc4tYqMhBU
+duplicate multihash - QmQLrYxWsyByEU6EeojyZDDTWWujAnTzQhmGUc4tYqMhBU. skipping
+PROCESSING ROW #80: 29dc9d72-b8e8-45d6-aa9f-730ed172a5aa.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 15989f5a-871a-48fb-a78b-de72314c0635, Qmevbw1fhLj6WedACXspKyA1jhiANZAWNzZjjY3vKgkWRZ, /file_storage/Qmevbw1fhLj6WedACXspKyA1jhiANZAWNzZjjY3vKgkWRZ
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #81: e6df0c70-064a-4c45-98f7-cc73ab40e4c3.mp3, a98c8e03-1199-420f-8c4b-6513f9960617, e0b6510e-9244-4dc4-8a12-410779c46edd, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #82: 44927e30-9800-4e56-84df-985bc0d54054.wav, a4182ee5-2db5-401b-812d-00fcdda4e06b, e56999cd-924a-447e-a8fc-95bd9b3804e3, QmVUq4KbpY7LMKSSrSUKaMwUSwh85h4TkRjPrBGFwx6GD6, /file_storage/QmVUq4KbpY7LMKSSrSUKaMwUSwh85h4TkRjPrBGFwx6GD6
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #83: 40d39595-e8c7-4464-8543-a7e98d1106fa.mp3, 260b21ca-4a3f-47ca-9907-413582379646, cc3ed9dc-e9d5-49b6-aa62-e7fb6d156c75, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #84: cd796597-8354-4e3d-a5fb-ce031c2a656b.mp3, 57c56d2e-cbda-4756-83f0-4958d3a59de6, d95d6427-c38b-4404-9d7f-b1fb34057c68, QmWJXyRePdVyXPu5jrfSv62Ru8G44UeJk4Wdqur4NdMPQu, /file_storage/QmWJXyRePdVyXPu5jrfSv62Ru8G44UeJk4Wdqur4NdMPQu
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #85: 6d721cb7-3187-401f-9296-a9d1ed158c3e.mp3, 57c56d2e-cbda-4756-83f0-4958d3a59de6, 7c119df5-973f-46e6-9bf3-7c736b4e4f25, Qmd6KtE2U1UVUhsfhXw2FtLNdsJafqfizzDGsKRLSYxXF7, /file_storage/Qmd6KtE2U1UVUhsfhXw2FtLNdsJafqfizzDGsKRLSYxXF7
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #86: 26bb3a3b-1c9d-45a7-9600-e684e5c74d4c.mp3, ba3373e0-e559-41b8-a43b-38a329d23020, 7d528e66-a319-4c45-b9c5-68c784b0006d, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #87: 74e824e4-0025-461d-bd01-4004d3b5cc56.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 8e97c647-3d18-45ed-90df-9d53fbbcc1bc, QmeB51sfp49gym8kfASkZPZaUYZoLoPt76LaXcLona28iQ, /file_storage/QmeB51sfp49gym8kfASkZPZaUYZoLoPt76LaXcLona28iQ
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #88: 3b1a0b09-da5d-4d30-8118-69cff04a8ce0.mp3, 2e220dee-3679-45a0-b424-df45d80e5825, e4399bd4-2fdb-4026-821b-9fbd60f9a5e7, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #89: f1b8b1c6-45e0-4a0e-acc8-257e29d1c3e8.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 44864158-f558-4b0e-bad4-ece2fe81835b, QmTUFuYBNWRkLf5MDiXjzNSgrMXcHRt2eoZm1ewcf2Hkd7, /file_storage/QmTUFuYBNWRkLf5MDiXjzNSgrMXcHRt2eoZm1ewcf2Hkd7
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #90: 616267ef-605b-4a52-b0c0-a838bb83db34.mp3, 845842f7-e43c-48db-8ce8-3910857d4046, 729810a8-3c1b-42f6-896e-703875c07918, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #91: 755a5950-0577-4330-bb3f-f9a893bca142.mp3, 438313fc-8a22-44eb-834d-ddbb3ad22bca, b9622ac7-f6d3-4b81-b6f4-93fdcb56350a, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #92: a485ce78-4df5-4ba2-b4fb-72dae07b0fde.mp3, 846de485-02a3-41de-b7ed-7fc2352056bb, b5948cb8-ef31-42ae-b505-5d323b3bfc0c, QmRcoRviee9kYQGvxF17XPYmVzd4g9VC9vVTtY9qEcExza, /file_storage/QmRcoRviee9kYQGvxF17XPYmVzd4g9VC9vVTtY9qEcExza
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #93: 3db89a3d-a329-4197-9e80-72647603e1b5.mp3, c4d74af2-09c6-481b-8049-3ccc8b427215, bff8312b-dd8e-476f-b77c-4d61f32d60f1, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #94: a108f69e-1152-455b-9f2a-ec0e2bd0195d.mp3, 8179a7e8-d2d3-4b11-97d5-736c284b3bd0, 0fb74dfc-4393-4c44-afa4-ed6ff9181fec, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #95: a46f133e-6838-48d2-bdd8-dcb8a55cbb65.mp3, 1b2c6995-3bd2-42e8-bd94-1db72945e145, 24faf312-81c0-42a8-88fa-988b898f6e2b, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #96: 5d17fd44-c331-4b54-ac04-d55ca566472b.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 60078a26-768f-467f-99af-e5dae62e01e5, QmTFVv1igCdQwiVKNTdR2MZdrE9vgH9mgS8meeLn5W6Hbw, /file_storage/QmTFVv1igCdQwiVKNTdR2MZdrE9vgH9mgS8meeLn5W6Hbw
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #97: fa2ed02c-beb1-4938-a021-5c56f371a3aa.mp3, 7cceb173-a254-4ccf-9e8f-ccc3a5a12a6e, ba8d4812-6866-4bdd-b086-dc0be927d8bb, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #98: da235d87-2f1e-470e-9560-104a5c9f9251.mp3, c1364a50-2def-4baf-8a5a-c418c83fab2a, 0fb223eb-d047-4274-be05-3e925380ce83, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #99: 0d1b00ca-653c-45e2-a7c7-fb5e61390bcf.mp3, 0276730b-1aab-4173-87d3-36b1695b203f, c2aaee42-8f30-4bf3-a127-4437bb89c843, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #100: be884447-4dbd-4f9b-8fdc-fef53b15008f.mp3, 3dbb6e34-dc09-46ff-9781-77f01e679a06, 229043c3-0abf-4106-b373-8dc801ad90c2, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #101: 770a621c-3b17-48fb-9954-479b28af0946.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 6d8f5eea-5dd2-40ef-bde0-1a91301645f5, QmNT83AdyvLNCLti3XCntPC2AY1wWGd264kR4ptXk67wBd, /file_storage/QmNT83AdyvLNCLti3XCntPC2AY1wWGd264kR4ptXk67wBd
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #102: 4bf40fe2-018f-47fb-b51e-4a3313bc874e.mp3, b0863a62-b20e-4e77-a034-9bcfe2583820, 96a1186d-e100-479a-9b2d-7a33d97add9c, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #103: f3f03b86-3bab-4cb1-a584-973ec090d0d7.mp3, 616f6d34-9d49-4abd-be78-32e07bf360f3, b48b9682-60eb-41ee-be74-40fa2d8f3bd2, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #104: 78c19d2b-3e4b-4969-9c6c-cdb2dbc31f7e.mp3, 94608a15-b585-4482-a266-08f81c684bb2, a16f670d-f635-4029-8858-bd8b26476bdb, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #105: a09d5d42-58e2-4c9a-a88c-749a26ae8c13.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 91c4c478-42ac-4f9f-b4f4-52545b5a5319, QmSuPWxXyDRkoyeykFNe7zytw96v2hL7Xr68gbB92urJDj, /file_storage/QmSuPWxXyDRkoyeykFNe7zytw96v2hL7Xr68gbB92urJDj
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #106: de45208b-c4a8-4406-baaa-2de3bc4dd9d9.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, cf403a9f-421a-475b-a8b1-71ac00b85e99, Qma9medMcCWkzcgrZ9P8LBs8598oVkS8xr72wpMYs6GBWY, /file_storage/Qma9medMcCWkzcgrZ9P8LBs8598oVkS8xr72wpMYs6GBWY
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #107: 1d9c010e-3eda-4101-9771-34fae622135f.mp3, 2bf51965-6c3f-488f-918e-a8d6e0b82cbf, 91b8aab4-0835-46ba-8123-674cb14712fb, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #108: fffc3b73-acc1-4087-8a49-f05bcc077b14.mp3, 66dbb988-f231-4cec-8fcf-edda13e68490, 25d4e77e-9d8e-4a05-a954-d804aa6ede2f, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #109: cc3fe92e-24a7-4981-8e7b-7fc40c8afeef.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, ef7e43d9-0981-4871-9933-b31dedbb587b, QmQm31z3heup58F8j9aR82MozPZmGJorxbZeHbXfrxHcMv, /file_storage/QmQm31z3heup58F8j9aR82MozPZmGJorxbZeHbXfrxHcMv
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #110: 146940b6-6658-4d47-b00c-8dd6e883c7d8.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 31df3886-6d1d-44ab-b4a4-823671bcb8cc, QmcUWYBBgr1XZZ3J7U8m95Huer8ABEqdjhLPQCRku4PHD8, /file_storage/QmcUWYBBgr1XZZ3J7U8m95Huer8ABEqdjhLPQCRku4PHD8
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #111: 0539f496-4f2f-4186-885a-1220999bbb5a.mp3, 79a481c4-2ccd-4be4-91f5-4a9e9137dc53, 503a31d2-4168-4a2b-b6e2-cc593a0b0c0f, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #112: f7cbd067-e356-4247-abea-f05049ff9939.mp3, 8394a70d-6c51-4eeb-812c-4ad26e6fab5f, 8dc88b13-c112-4da7-829c-b8ae69a305a7, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #113: 0b88317c-ee28-4e67-b0cc-f44b48e5d9a3.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 34e287d0-6dd1-47cc-8506-82c1dce4070c, QmWLn4bUfRu6hmARQGRMaY5LzxZTi1SvDvkRGHeww5nAiy, /file_storage/QmWLn4bUfRu6hmARQGRMaY5LzxZTi1SvDvkRGHeww5nAiy
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #114: b7b6c257-46da-4475-a8a2-172bec332792.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, f69e5987-e85d-4d5f-82fe-c34a956bb5ec, QmeMXxdDKb2nk6gzgr3rZrKP9Pbcf3vXv3iXm54LQpgTnT, /file_storage/QmeMXxdDKb2nk6gzgr3rZrKP9Pbcf3vXv3iXm54LQpgTnT
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #115: f0f64aad-0749-4a0a-aea6-18423e873506.mp3, 285adfbe-ec52-468f-a72e-c42c6bf83cc2, d9615907-2dcc-421d-9bd5-ee675fb361ea, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #116: 7cdadd7b-82bc-40cd-8d29-6c1ad0fb1038.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 1f3c94fc-bbcd-4f0f-ab7d-82b744b814e2, QmSQ2fp4Hti8HhepEY7ymhUNQFLuQZyJXypuhDTpzYvU37, /file_storage/QmSQ2fp4Hti8HhepEY7ymhUNQFLuQZyJXypuhDTpzYvU37
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #117: defe34f3-d64f-42bc-a7bc-a91108fcbbac.mp3, 2e534b8d-e9e8-459c-ab78-492e7ce6d150, 69d4cc0a-4165-4a78-a61f-3ca31e92628a, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #118: e0c255d6-1868-44cb-9365-489aa5c9af41.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 08f48ce5-1690-41c1-9bc8-8f49b2383007, QmWJ8e6LcfSMkTdcdw7Rui8wWiFQPvaxraTJPdfwWd1EVe, /file_storage/QmWJ8e6LcfSMkTdcdw7Rui8wWiFQPvaxraTJPdfwWd1EVe
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #119: c599f30d-16b8-4b91-b9b8-0580dcccc20e.mp3, f40e8f46-c706-4bb8-9697-296bf300dacc, 1eb18139-6153-409a-9357-8b597b89436f, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #120: ef8e54fc-b4a6-44fb-a712-d2ce4e9afc70.mp3, 41d0a79f-3432-4435-a699-6dc562a1285a, ba877bb7-079a-414f-aaa5-5618cf9eecb5, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #121: 51005fa5-7951-4ecf-b0bf-9d3a8c8330c9.mp3, 98c3d0fa-dc1e-4274-94b6-ab654fecf064, 9300e993-efca-4122-967c-eaf045014825, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #122: e432d754-1112-4471-9320-dcd60412b845.mp3, 217be066-d50d-483b-a587-7f188c02678a, 48a55c70-6671-495e-8eee-0a34a51202a8, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #123: 73ba40ed-a0f7-4fe7-b01d-aa98fd88cdb8.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 29698701-8744-4c75-9d37-d32f95fcd5d2, QmTTWsgTvuiPAhZMnkeNzEmkni9fQ7AJLGtZypWaSH31wQ, /file_storage/QmTTWsgTvuiPAhZMnkeNzEmkni9fQ7AJLGtZypWaSH31wQ
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #124: 0b005342-d1d6-4c7d-a98f-9411b036f9c7.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 91b5041b-068f-448d-85a6-b2ddae475b6a, QmRMF2DuTJ1KQepmJnkpP6wPbQR4So581EYDUVjGoPB2Dk, /file_storage/QmRMF2DuTJ1KQepmJnkpP6wPbQR4So581EYDUVjGoPB2Dk
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #125: 82acafc3-766a-4f25-aea8-17ea48aa2036.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 94850867-5bf8-4cf2-a968-1eda1a351b88, QmXhSjt73fAhojPnAgYZd1ipXAY145SidocT3xfc6Hayqu, /file_storage/QmXhSjt73fAhojPnAgYZd1ipXAY145SidocT3xfc6Hayqu
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #126: 9bd6e607-65b1-4280-8f09-04163454f542.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 38d101ff-5ca5-45d6-bdca-9ce4d7ca578b, QmXLmz4xmR48HDnWYnX4eFynRpqA1fmuEgxHrm4NCtWZgy, /file_storage/QmXLmz4xmR48HDnWYnX4eFynRpqA1fmuEgxHrm4NCtWZgy
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #127: 13eeeb7b-13c2-40ba-9450-5a04735af092.mp3, 8ebbd905-612f-44d0-8593-7f13c0872645, 4bb0e7b1-63fb-4234-9e30-7b325cf87ae8, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #128: 08f5089c-e2ab-44d5-ac0b-0e20c324b59b.mp3, b199f983-4b6b-4a35-9147-d8924763037f, b730e4a0-9670-471d-afae-152b1d5c2d0e, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #129: 4a46d76a-9b18-4f5f-a0ec-55387c5b7180.mp3, 1a33e638-b314-4361-907c-4dd980342a66, 0cb23960-33b2-4214-a472-4a0fb2465287, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #130: fce78093-b652-491a-84ae-5ec0da3279ec.mp3, 9441f660-d1f9-4e39-961f-0742ad22883d, ba540961-fbf6-46e5-a97b-dd1efb462d4d, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #131: cb789ba0-1bab-4bf1-b28c-a90895ce190b.mp3, 9bde39d7-4c2e-40f5-b9ef-4986c09d19f0, 7964294f-e452-439e-b960-9e15966c07f4, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #132: 579bb23f-8192-482f-bcfa-f0b654b00175.mp3, 76c087f2-bc88-491c-ac0f-c3140cd773e5, cc10c197-65ed-4165-be94-ae8d1900bd9e, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #133: 7689f9dd-afba-43b3-b024-ac9a4da9be0e.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, f2ec7ce8-3866-4934-a736-f5394a753956, QmXZtN92xDE2ktX9DX52jLtVvVXGMng5es9MyK8LYGjoE7, /file_storage/QmXZtN92xDE2ktX9DX52jLtVvVXGMng5es9MyK8LYGjoE7
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #134: 3194c352-4da2-47dc-89a4-260a68b8f2f2.mp3, a1208cd1-d717-4012-a461-d61968b82290, b3d661fa-f85e-4d14-9f1d-39c935fe18b7, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #135: 70d5350b-5776-4012-8162-1ad76ddbe926.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, c4432c2b-7fdc-4a05-b238-efc7e7c299c1, QmdxPXtnTwgZKvBZfKJFab4ucMfdJAfFHHU4fDBRxCsmWx, /file_storage/QmdxPXtnTwgZKvBZfKJFab4ucMfdJAfFHHU4fDBRxCsmWx
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #136: 2dad8664-1298-441e-8fe4-bb2949b98b28.mp3, 56b6aa9f-46a8-4fb6-911a-c4d69dbdf9b6, 589b1454-f52d-4172-857a-7997b06def50, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #137: 8b07bf8b-8246-4bbf-ac80-219aeabeddd7.mp3, 2a58b608-4200-4152-b041-b0821cb02fbf, 326eec4d-52a5-4374-ab75-7c2fdb1ac602, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #138: a5791780-457f-4386-ba4f-29eebbb1d96d.mp3, 2d38d9e8-5c2a-4a86-b1f7-64bb4ee7fbfa, 5f603bfd-beec-4661-8962-4198b09911b5, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #139: a60ff638-e649-4e3a-a86c-f3a0830a2b4f.mp3, 224da11b-03d6-440a-a3e8-a05ac0478bcb, 048de8b2-ad09-4ad4-9b1c-4257cb4baddb, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #140: 78bdd368-a80e-4ba6-9e11-a5c78d07e840.mp3, a0e58d58-8911-4467-8714-a4216587c95e, 6c289cd5-6599-4914-9697-886b9d239961, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #141: 7c8d5c9f-cf59-4fc2-b15f-61e588be2b66.mp3, 9c7c7fdd-6ca3-4e67-a979-52622138b098, f883f478-86a7-4adc-9922-b9803fc1e5e2, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #142: bda8dedd-5452-4fc8-950d-8ad63bebb9e3.mp3, 98fecfa6-1854-42df-8bbf-31e159f7232c, a720fa91-e193-4e96-a3a5-f56cf53da77f, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #143: c07565d6-c100-43a5-98f0-fa2c1c2f5fe0.mp3, 8598d7b0-4217-4b04-a9cd-1b47a0a69555, c39cad1e-b89e-47ef-94a9-91824978d94f, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #144: ed57621d-4b62-4800-91e9-dcd594f4e052.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 62e2997e-4150-4f41-ab7c-5dddcdc35903, QmbtCLoiyhTTpmVKWgVPLUibHTJ2e1ysM8s9QgGxeNer9Y, /file_storage/QmbtCLoiyhTTpmVKWgVPLUibHTJ2e1ysM8s9QgGxeNer9Y
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #145: ed5b318f-b387-483f-b347-2ad8109f8d69.mp3, c6712399-ed32-440f-b40a-9728d0401964, 29ff981d-c481-42d9-9bd2-505df61c0284, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #146: 0b7da4d8-712e-40d2-87c4-7ae9cc91a965.mp3, a7f1a371-de10-45e3-8fc2-1655a7ab9b9b, 2b9885a9-b444-4d5a-8f03-42d6cd6e882f, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #147: c8f0f7e7-53d2-4008-9ef1-5b5757bc9714.mp3, 69120cd2-e176-4714-bed6-d364b0cf1498, dbe0b885-c1f0-4242-a7ac-5623ff0f0d10, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #148: 0c40e870-6fba-4829-868c-1a286e7697f4.mp3, d2342a3b-d8ba-40df-8db9-a9a3d81c5554, a0e4f952-a7f5-495d-ab08-a24d4ca86abd, QmQLrYxWsyByEU6EeojyZDDTWWujAnTzQhmGUc4tYqMhBU, /file_storage/QmQLrYxWsyByEU6EeojyZDDTWWujAnTzQhmGUc4tYqMhBU
+duplicate multihash - QmQLrYxWsyByEU6EeojyZDDTWWujAnTzQhmGUc4tYqMhBU. skipping
+PROCESSING ROW #149: 6d1ab8d0-ac54-4734-9b31-ebbf8106ce22.mp3, 36e5bc38-bd87-4cb2-a30a-e5bb131ba840, 7f318b4e-ea7e-4d0e-aa77-9e0427fffa6a, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #150: 5661f61e-b907-4d3f-bf8e-c59f1fccc5ef.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 27e7f2c3-3fa5-4291-83ec-f6baa75bea14, QmP2GY24rDxmmeUucVZA3Re7ih1KxUrDrgmk6VW1GqXM5r, /file_storage/QmP2GY24rDxmmeUucVZA3Re7ih1KxUrDrgmk6VW1GqXM5r
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #151: 6149522a-c78b-46c3-8be1-f644d4cafecf.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, e18c0198-427d-4d4c-ad43-118eb05cc642, QmNwax6h4gZ8tKJAyvQKtsJQ1Z2FCYXFvDGT1LEU9HhxTs, /file_storage/QmNwax6h4gZ8tKJAyvQKtsJQ1Z2FCYXFvDGT1LEU9HhxTs
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #152: e1f37ad6-7286-4ea5-81b0-2f11887d9ecb.mp3, 350b423e-a402-456f-9387-eb8d22bd70dc, 6a4dad98-8e48-4c04-bb39-cc6193982daa, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #153: 5d25ab93-4ece-41e1-8bc1-25adf824078c.mp3, f4401e9a-a2ef-4908-9b49-177b177bf9c2, c16f9597-6a21-43c0-829d-c10b8d4497ed, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #154: 1ac92a3b-1728-4c50-a0c6-e9d5f3c71298.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, de70abdf-3643-4128-9c42-fd30bacb20c5, QmPa3EBEEAJqjouvqGQZM7bGrkpNsVPBXqefM7ZHfupmKK, /file_storage/QmPa3EBEEAJqjouvqGQZM7bGrkpNsVPBXqefM7ZHfupmKK
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #155: 5ed71440-4f14-4989-98f2-3f77d1764462.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, db3c3132-3350-48be-9aaf-da2b4629d16f, QmRNoiAB5T3HEw31WseYgsoEDqFbhk2kULAemJXucp5nzV, /file_storage/QmRNoiAB5T3HEw31WseYgsoEDqFbhk2kULAemJXucp5nzV
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #156: 3d160b2e-e76d-4af6-9dda-be768f20f1e1.mp3, e3669ab1-7042-4863-833c-4f267bb29541, ce6dceb0-247d-45b7-aa6e-339f5ab7040e, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #157: c7158aa4-7e2a-4290-90f3-837ff408f083.mp3, 63e5c06b-8001-447f-a621-ac068ba31b16, e6e233cd-30f3-496b-9eef-ef1327d94c79, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #158: fcb907d2-d5e0-4c74-b6df-ed7604633015.mp3, 820254c6-d17b-480a-abab-a79fa1f4b950, 89e12e29-eb45-4306-b09d-585ec4a074ac, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #159: 3de42807-ecf4-4e97-87d9-1a31f4e8a03a.mp3, 0478b326-7abc-4c60-b239-87c392c1fa07, 2c3599c2-f331-497a-b1dd-85c1a2e37e19, QmSRhV8Jb478mEqnTkv4sT4HyK2aE3MzhGAfL5jRSqcMVk, /file_storage/QmSRhV8Jb478mEqnTkv4sT4HyK2aE3MzhGAfL5jRSqcMVk
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #160: a38830bd-2504-479d-a0a1-367c35c768d7.mp3, 2259d5d9-106d-49c5-8445-df53898f8531, a4f57f3a-8ff7-4898-9faa-0001893d90be, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #161: 7b26b04e-a7fe-436c-bb3c-035a5e517c11.mp3, 97adaba5-c378-4f7d-a2e9-a44f68e69083, 5c8b5618-c85b-4f0d-9710-95d9aa26f19e, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #162: 08a2b894-784f-42a1-b514-57e94335a399.mp3, 46c017cc-72d7-461b-aecd-e768d948c349, 7b31c8a0-bc84-4778-834a-927e048b0010, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #163: 3ad68b7c-de8c-4923-96ea-1d3e750ca9e7.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 7ef3643c-7b0a-43d6-af01-d3510a0b7e29, QmSYkpELZK1LJVMa3YH1y91ekfnQ1KqCGwbSmoGzURD1jX, /file_storage/QmSYkpELZK1LJVMa3YH1y91ekfnQ1KqCGwbSmoGzURD1jX
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #164: e584ff58-b311-4ef9-867f-d6ee7965d865.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, bb827ec9-64b4-4645-98cc-a1162cb564c0, QmXTMas8qKPzL1XbWpueMAivSK4WhVCSxFWwq7hFmiYCbY, /file_storage/QmXTMas8qKPzL1XbWpueMAivSK4WhVCSxFWwq7hFmiYCbY
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #165: f5b20b5e-42a9-4e04-8460-70737581a209.mp3, e2eb9bb7-2696-4052-a3f5-b036f8c3536a, 9060bb65-d2ea-4764-859e-f6beb347e30e, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #166: c0321fbe-b3a8-44b8-ac30-79dc332ee076.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, d121f825-2e10-46cd-a226-eaedddb23d2b, QmPtceLwK68dssgAAdE7biVhWg9AyUg9VtWSrWWwMJP6XP, /file_storage/QmPtceLwK68dssgAAdE7biVhWg9AyUg9VtWSrWWwMJP6XP
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #167: 2c696483-f5a3-4296-9a30-3e8d8818be02.mp3, 899a88df-cf31-4899-90a1-5b5cf7fff45e, dc06ebe5-3bab-4ac1-a38a-7a10120547e4, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #168: f452b97f-74ff-4083-b071-12817dee5542.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, d3d26a31-3224-425b-830b-286f32054b61, QmVgufGaR3pt11oiKhHne8qPegzAQaPWXDZUkS5uA3YX5B, /file_storage/QmVgufGaR3pt11oiKhHne8qPegzAQaPWXDZUkS5uA3YX5B
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #169: 82984abf-a1e3-4bc9-813b-e5cd108910b9.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 086106b1-4036-4f20-888a-e16ccb759ec3, QmZcCa8edPjyEUfVTYmGua8HcEPmp6E4PpgKLx9ksVSznr, /file_storage/QmZcCa8edPjyEUfVTYmGua8HcEPmp6E4PpgKLx9ksVSznr
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #170: e3901e3e-4c32-4f07-ac9e-d34042540c94.mp3, 7a85958e-6317-49af-a978-728b23758021, 89da3133-860f-4048-9377-66b9128dd2b9, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #171: 27f29252-4468-4f90-bcf3-de2533a6555b.wav, a4182ee5-2db5-401b-812d-00fcdda4e06b, 6a5ac298-1f6c-445b-a8e7-48945abc29b3, QmTkmBnP6R9WSKn5tEeeRnjJj2zmijYBjDHhrzwZAkq7pV, /file_storage/QmTkmBnP6R9WSKn5tEeeRnjJj2zmijYBjDHhrzwZAkq7pV
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #172: e0c98235-c80f-4f56-aca9-f144b7abda52.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 374a4b32-aba8-445d-adce-7308e86dce8e, QmcEc5YP1yNaW79oCqBw3j6eb2NqrFD4g3tmPvKMRvBqWm, /file_storage/QmcEc5YP1yNaW79oCqBw3j6eb2NqrFD4g3tmPvKMRvBqWm
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #173: 6ebd873b-19ce-465a-a461-f8c37b4ed428.mp3, d027b53a-0483-460d-a49d-9fad7b00a28b, 696f87cc-e2a1-49cf-a513-04b5f1e75a41, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #174: db6c8ef2-f3dc-4a3d-bf0a-8cf6585770a0.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 657ed2fd-7665-4e92-bb56-ecaabf4ad509, QmYdgydU3SYTn9TpPVghPEYuU8Fa8v7DNMWJuc9LwU8XXJ, /file_storage/QmYdgydU3SYTn9TpPVghPEYuU8Fa8v7DNMWJuc9LwU8XXJ
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #175: 6f06b634-a319-4ffe-a68d-ad9140db1fd1.mp3, 846de485-02a3-41de-b7ed-7fc2352056bb, 5d48f66f-3a73-474d-ae30-3e8ca5038f30, QmSHY6vt2F72YHuV68C2ePoiMUnQSauPigac6NVttEHUWv, /file_storage/QmSHY6vt2F72YHuV68C2ePoiMUnQSauPigac6NVttEHUWv
+duplicate multihash - QmSHY6vt2F72YHuV68C2ePoiMUnQSauPigac6NVttEHUWv. skipping
+PROCESSING ROW #176: 18c49550-0545-4ac4-bd70-88481c9ba16b.mp3, 67e8ce85-e143-4955-912b-cdaad54a14ce, 5084d8de-c8bc-420b-ab1a-9ae6185e89e9, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #177: 27bb5fd6-d08a-4965-bcb3-4fb22286f405.mp3, d2342a3b-d8ba-40df-8db9-a9a3d81c5554, a0e4f952-a7f5-495d-ab08-a24d4ca86abd, QmQLrYxWsyByEU6EeojyZDDTWWujAnTzQhmGUc4tYqMhBU, /file_storage/QmQLrYxWsyByEU6EeojyZDDTWWujAnTzQhmGUc4tYqMhBU
+duplicate multihash - QmQLrYxWsyByEU6EeojyZDDTWWujAnTzQhmGUc4tYqMhBU. skipping
+PROCESSING ROW #178: c642f7e9-3525-436f-ba8c-d66c9f4914cd.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, f41c5d98-d1a5-4be0-bdaf-922a20954df3, QmVHg9jsdkNjsKLdKskfxnCehs1sS8BkBFmtiMx9e1EAik, /file_storage/QmVHg9jsdkNjsKLdKskfxnCehs1sS8BkBFmtiMx9e1EAik
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #179: 2c7675c0-189f-4031-be21-1bfa5c17072b.mp3, 97d05e3c-3cd7-474b-97fb-ba487d527cfb, 2ee21c84-bbaa-406f-af9f-6570ee716cfd, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #180: 0a06cb4f-1745-4e50-8c0a-ea74f61a2300.mp3, afbfe7f8-0b3f-45a9-8e57-2969890ca749, 3224febd-b18c-4865-9a6a-95474cfcece8, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #181: 33ab1fc2-30ad-42cc-85d3-d7a7ad4361ee.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, 5b3953d4-4663-4aff-adb5-ebeb3e1d2004, QmVoZpJ8sXvBLrp1FRsjh99ktrXDesuKZcfyk9MHE8QXiA, /file_storage/QmVoZpJ8sXvBLrp1FRsjh99ktrXDesuKZcfyk9MHE8QXiA
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #182: bf918ae1-9589-414c-8c85-4eacbfcc4eb0.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, a705a3ef-959f-4f2f-beb7-ee90dcaafa90, QmSmNMoVwZfK3AJyxWNygXMQqCKwqz8FXY66nN1FR8BWhd, /file_storage/QmSmNMoVwZfK3AJyxWNygXMQqCKwqz8FXY66nN1FR8BWhd
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #183: f1d79d59-f1a7-4c9e-a741-c9ef9811f2bb.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, c838a7e4-f342-4ae5-92f3-e01aad6632b1, Qmcq98JQi3gDzmi1AmnnRhMVw8dpEV43GCEiWhRkknpNgd, /file_storage/Qmcq98JQi3gDzmi1AmnnRhMVw8dpEV43GCEiWhRkknpNgd
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #184: 2a3640d3-2f8f-48f1-bb52-e64e52df261f.mp3, 285d1a3d-8657-4945-95a8-ef744ad04441, a3cbb0b5-7295-4db2-ae28-10f68948d76f, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #185: 69cd9f85-6382-47e9-ae31-b34337c07f4a.mp3, 79d87def-8771-4c66-8c5c-91f19580f541, 76d1e0e9-fc7a-41a4-beb5-9b217504916e, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #186: 497f6aae-2515-4b00-b9d2-58c7827f1096.mp3, ce085e41-0e98-4ea5-ad1f-bd4f38dd4a5b, 5da1bb54-570d-45fb-841f-6c3d210cfdca, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #187: 53c3e435-6a06-4554-b483-1159f384979d.mp3, a3ab9d5e-9461-40f9-8970-c0d8f04b7cdd, a431c2d0-f38b-4092-af24-849cf73017ef, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #188: 058bc3c5-f4a3-46e0-96fd-aadc54536eb1.mp3, 2e171be8-d0c6-4a23-a7c5-848eda55b52a, fcb0a4a5-7076-4900-baa2-013b3b97e668, QmQLrYxWsyByEU6EeojyZDDTWWujAnTzQhmGUc4tYqMhBU, /file_storage/QmQLrYxWsyByEU6EeojyZDDTWWujAnTzQhmGUc4tYqMhBU
+duplicate multihash - QmQLrYxWsyByEU6EeojyZDDTWWujAnTzQhmGUc4tYqMhBU. skipping
+PROCESSING ROW #189: 39c4b9e7-fa43-45a7-be7a-f2aa36b6d9cb.mp3, f3e3ccb3-f3d2-44b8-847d-a5c725c28f17, 3fb4427e-359a-4576-a6ae-400ee79f43bf, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #190: 92d43448-1cc9-437e-86ed-e241747de18b.mp3, 01e77160-500f-45aa-9179-6ea1d82d1b9a, 2a8a68dd-9409-4e1c-9966-5cfab4666309, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #191: 822020fb-a210-493b-97d3-b8b625bcd97d.mp3, 5e84a713-5146-40a1-9c4d-b88f68759a3b, 65fa7645-797f-4da9-94e5-98f39efa1911, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #192: 0806a0ff-f5e8-4e6d-8608-1ecdbd50c759.mp3, 51cc10bd-46af-41c8-b836-6542d326cd77, 3dfe95fb-486c-444d-b511-dc820f2e4366, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #193: ccc8379d-ed3f-4bc8-9ccc-fe58024bfa93.mp3, 96cab11b-f743-4abb-ac58-697c1536a397, 2ccda3e7-5871-4588-ab83-5dc97f5c8735, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #194: dd38e297-d43c-40e3-89f8-af6ae84f3223.mp3, 846de485-02a3-41de-b7ed-7fc2352056bb, 939c8c61-1a12-4592-a158-a87b4351c215, QmShGmdf4MURrfcaJHKmUQ28Xt4jN245ezJ7nJTpQaKV3F, /file_storage/QmShGmdf4MURrfcaJHKmUQ28Xt4jN245ezJ7nJTpQaKV3F
+duplicate multihash - QmShGmdf4MURrfcaJHKmUQ28Xt4jN245ezJ7nJTpQaKV3F. skipping
+PROCESSING ROW #195: 3892f955-ba0e-49ff-8021-7a0f308b2974.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, bc2eb41c-b34e-4400-a8bd-b41090b5abfd, QmPiV7xqJBMyrzXevR87qfTbvxLhVpxqM3ojAP11p2P4Zs, /file_storage/QmPiV7xqJBMyrzXevR87qfTbvxLhVpxqM3ojAP11p2P4Zs
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #196: a5343c34-2293-4e70-871b-b2a53b1bd89f.mp3, ac46b8db-436c-4fdc-a646-f3f5c1f4e2ba, 2ed9e479-9985-49ef-9631-2fae55efb009, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #197: 58cba95c-2777-4dfc-8143-8c87c944d6b7.mp3, bf7a2ab0-eefe-46ef-aec0-c9200deb8534, d34f9072-d489-4ace-b641-3e4761047d1d, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #198: 61f9ce6f-79b9-4f0f-8581-3bcb2c3b9b32.mp3, c3d646a9-a910-475d-916a-5469e298bcc3, 88d37cfe-597c-4a7c-8a7f-2454c20965db, QmNgPjc1CKLTZoKCEtUq9iF8ibTFAizXDzhD4ECk4VgvEF, /file_storage/QmNgPjc1CKLTZoKCEtUq9iF8ibTFAizXDzhD4ECk4VgvEF
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #199: c993c9a2-9b76-4709-824d-275a528eef0b.mp3, 8a8e53cd-e052-443e-9676-f3e5023dfff6, 2afd51aa-b86f-4e0a-9fc4-bcbbd2aec478, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #200: 60aec50c-2cd7-4f01-8a71-33a96464042b.mp3, 5d20ebaf-872a-47f1-b068-0bfa6227f58f, a2ebc99f-cdf6-4cbb-86be-25ef1c671a27, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #201: 595436c1-3f3b-4b77-bd2b-4b50f549ecd4.mp3, 6d2b9d50-6a0f-4f25-9d73-7150caa78516, cfba6b9f-c61b-4da7-8a48-f3dbd6a08e97, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #202: 67fb3d6d-f303-420e-a46f-11543068d459.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, e23db55d-36b4-4329-a6ad-ccf7142882a5, QmcwpdWFuSgAhddatUZXDsTQzKGDCRB1RDdKGdqKKwGxHB, /file_storage/QmcwpdWFuSgAhddatUZXDsTQzKGDCRB1RDdKGdqKKwGxHB
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #203: 92e0d5e3-920c-4e13-bca1-ab3dbf707ec7.mp3, c3d646a9-a910-475d-916a-5469e298bcc3, 51930d01-0f13-4a53-8e6c-94b085963f6e, QmWZKeiTZxfd6xHcoGWtkiPgY1gmsYrDhGJFz7w2y2qyLu, /file_storage/QmWZKeiTZxfd6xHcoGWtkiPgY1gmsYrDhGJFz7w2y2qyLu
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #204: 308de533-e906-46f0-b0c8-d5a83dace94a.mp3, 84dd4052-bd59-4106-bcb4-87b6a765a0a7, 75c2fc7b-1e96-42e3-859a-f5d46f2a8b2f, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #205: 4e7a47b5-97c8-4aa9-967b-b6fb1797896b.mp3, 6953cafd-2efc-4c14-a8b8-49816f7d8a1b, fe8e2305-765f-4727-822c-3f3d239bb128, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #206: 0cc1348c-3ba6-4cd7-a5cd-48b7f4cd7dfa.mp3, c85b8186-1dc6-45de-90aa-f972694fe66a, 00db1e17-5d30-4a4a-b8a5-d5ae0ba1277a, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #207: 37aa92c8-a242-4800-b177-c95c73449490.mp3, e66eca23-32a7-4bf1-b067-601064b79984, 24d8b79d-8372-4617-8971-23310eaf82e1, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #208: 0423b202-827f-4f03-b344-9caf3fe944f4.mp3, 5ace8efb-f7f6-4025-a05f-5547efae64ee, 076ffede-a30f-4953-ba36-b9493802f1f1, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #209: e9799db2-9302-4696-99cf-f5a84bfd1515.mp3, 11c34897-1946-4dfc-b59c-f646a1fc69fe, b7690ab1-1c30-4ce7-89cc-def520924888, Qmby4dUsZ6tbB4vUrJNMx6g5j5Zx1x4PbvaDQb5p6DhqnT, /file_storage/Qmby4dUsZ6tbB4vUrJNMx6g5j5Zx1x4PbvaDQb5p6DhqnT
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #210: 56baecad-4cde-42fd-88c2-3e1cb28878de.mp3, 846de485-02a3-41de-b7ed-7fc2352056bb, 80515df0-fb0f-4397-9efa-399cadc48042, QmaAAyRs9BUdGQ67dCYQP965VrHghDYsBnZnGxsA7xHCYE, /file_storage/QmaAAyRs9BUdGQ67dCYQP965VrHghDYsBnZnGxsA7xHCYE
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #211: 4b717188-a3c8-4543-b3d3-b6600e56bbdf.mp3, 2319b92a-7ae4-4d75-9106-071d195a62e6, 7eb0a13a-f96a-4582-9d1d-b4faac200a7d, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #212: 480a47be-f219-4c4b-96ec-e753a6e228fd.mp3, eb6ef52e-ac0d-4db2-baa5-231120a67c6f, 86602387-e7c6-4ef3-8549-88e339881bcb, QmYCXxqmv4RvUBM6okkGJZqGBQwDefi6o7BAizGAvRRZ6V, /file_storage/QmYCXxqmv4RvUBM6okkGJZqGBQwDefi6o7BAizGAvRRZ6V
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #213: f9a96452-6b4c-4418-9d69-f97a491f07a2.mp3, eb6ef52e-ac0d-4db2-baa5-231120a67c6f, 4b957f05-d1b4-4d24-8428-9291fcdbbbbc, QmT9qVu72q2B4n3Tp46gdoT1dtY88u6F8hsbXPmYKrF4ck, /file_storage/QmT9qVu72q2B4n3Tp46gdoT1dtY88u6F8hsbXPmYKrF4ck
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #214: b9be7ca7-4098-4a7a-a3a4-29c863379598.mp3, 61375eee-111f-48df-b4ff-d8fec33921e2, e20d837a-7aa2-42d2-ba90-0e4a4ee46d9b, QmWsTEu8PeXxU8hMc2JbVsyNucFw24oocTwa4r5VGoRwK4, /file_storage/QmWsTEu8PeXxU8hMc2JbVsyNucFw24oocTwa4r5VGoRwK4
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #215: 418ef6d9-03c6-4d35-b809-b7bf14a55a38.mp3, fc86b27c-d45d-4eac-9d34-984762ba44c2, 3f30d407-ea5d-4710-980d-dc59ca25cc3e, QmePKJNkw7RoEawMWL81aRgWncBtPi7CpuwLyU4eH32LqE, /file_storage/QmePKJNkw7RoEawMWL81aRgWncBtPi7CpuwLyU4eH32LqE
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #216: d9b7c130-cc0e-42c8-9d63-9f3bf91ab63d.mp3, 61375eee-111f-48df-b4ff-d8fec33921e2, c77c6a3f-4e6c-4f84-ae78-41c8d7b83f44, QmPgkYe8tSsP9Ygv9JQpuppjCCZesz3PzGsYXb2CvaX66L, /file_storage/QmPgkYe8tSsP9Ygv9JQpuppjCCZesz3PzGsYXb2CvaX66L
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #217: 978dfb69-8cb9-46c4-a34e-0742f8e77a3a.mp3, 59ed7980-7e92-4a84-a1e4-17f5f7aabc44, fd911206-9e53-42e4-b3d1-a0b41073be04, QmVE68yfD9EV15m5eSbHBu7uCPA4bxFJrsrbAbcYahwnky, /file_storage/QmVE68yfD9EV15m5eSbHBu7uCPA4bxFJrsrbAbcYahwnky
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #218: a1871f93-7b7c-4a23-9200-ab0ccba3b947.mp3, fc86b27c-d45d-4eac-9d34-984762ba44c2, 4ac1426e-ccc5-4a44-8851-db42c5ce281f, QmVUvkVVj7k7reHHPAjFui44eKFuSvfUvYRTdgzjkrRgku, /file_storage/QmVUvkVVj7k7reHHPAjFui44eKFuSvfUvYRTdgzjkrRgku
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #219: b48813e3-46b3-4200-b27d-039334b2a6d5.mp3, 61375eee-111f-48df-b4ff-d8fec33921e2, bf33a249-7094-4d1e-ba51-cb6737ff3d45, QmPunuTbU4WtrGGBbVLtbCPWMD17huULmAqyHHgq7vK3jj, /file_storage/QmPunuTbU4WtrGGBbVLtbCPWMD17huULmAqyHHgq7vK3jj
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #220: 41219572-4ce7-442d-8284-323e80a4c817.mp3, 61375eee-111f-48df-b4ff-d8fec33921e2, 6de002e2-4f74-49a5-8e5f-fc032e281cdf, QmRZJsuFkHUTMv7bK4aJRth5GZffwHcM56Z7Hh3zP9iaJ1, /file_storage/QmRZJsuFkHUTMv7bK4aJRth5GZffwHcM56Z7Hh3zP9iaJ1
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #221: 8aadb627-0b4d-4787-9574-4bf901374daf.mp3, 61375eee-111f-48df-b4ff-d8fec33921e2, d092cdab-e7f2-40fa-a070-c391eb966d44, QmWeNunT7A77pEch6rk3tiySGnt8c31FU3dfLkX1xjKyr2, /file_storage/QmWeNunT7A77pEch6rk3tiySGnt8c31FU3dfLkX1xjKyr2
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #222: 5222a937-185c-4989-b9da-51db2caa06d3.mp3, 59ed7980-7e92-4a84-a1e4-17f5f7aabc44, 3d1415d3-7801-4226-93be-70d937e09cdc, QmfZrhqGLTNHxY1K3YJZABs5cHEqXGQsC2UbXEsuynanRr, /file_storage/QmfZrhqGLTNHxY1K3YJZABs5cHEqXGQsC2UbXEsuynanRr
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #223: 824d6913-e9de-4c5f-a8e8-36a6ea043db2.mp3, 61375eee-111f-48df-b4ff-d8fec33921e2, b384dad2-d2b7-41dd-b9e2-830a5d211cd9, QmbpFY9tgVfQbv94ea8f4SrfmUeQzdkUZ8wpF2tdvtFpSV, /file_storage/QmbpFY9tgVfQbv94ea8f4SrfmUeQzdkUZ8wpF2tdvtFpSV
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #224: 66ac2d0f-4e20-44aa-a6fb-8e9f4bb6e414.mp3, 0e505165-4955-4bbc-a6e4-9873daf48d68, d3be92a2-3935-4a10-96ae-32b8985ddb47, Qmckbd4YBBQnhxiRFYRbTENSBDhJAojeNKrX3bP267A9Q3, /file_storage/Qmckbd4YBBQnhxiRFYRbTENSBDhJAojeNKrX3bP267A9Q3
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #225: e2b51d3f-546f-4348-8da0-515deb6693bc.mp3, 79649df0-ffc1-463c-9196-95d156d6b915, 5c9ec8f4-e60f-4f4d-875b-e5c1145b1e94, QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM, /file_storage/QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM
+duplicate multihash - QmW9a4PbSKnEboFtVbcNADA3DaPbzgEtsguoPHj63zFGkM. skipping
+PROCESSING ROW #226: c94e1cb8-1f17-45d4-8f3f-b20320d06474.mp3, 30f0f30b-9094-4c79-bca8-199ba095fbca, f1271e61-82dc-4795-b60f-c60a02c72ef7, QmcAD35vXY3h9iXGDF2sLTMTZ4QER63yKVoFrJQUpps6bq, /file_storage/QmcAD35vXY3h9iXGDF2sLTMTZ4QER63yKVoFrJQUpps6bq
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #227: ca28022b-6655-41f0-8407-527607162bbf.mp3, 0e505165-4955-4bbc-a6e4-9873daf48d68, 39dfa10b-d514-4567-98b7-722638c16e62, QmSUNqmVaSRegYPd4SSguA9PqTRRyaNTb89z8K2kv7hw9G, /file_storage/QmSUNqmVaSRegYPd4SSguA9PqTRRyaNTb89z8K2kv7hw9G
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #228: 3cbba81f-e471-4d17-9b75-279308085898.mp3, 61375eee-111f-48df-b4ff-d8fec33921e2, 7e403eee-b7a2-435e-888b-b40c4d75cf50, QmeD3mVkUA6tBzCgTP3BniC6bLAXjDWQwbPa1oX3KxtV34, /file_storage/QmeD3mVkUA6tBzCgTP3BniC6bLAXjDWQwbPa1oX3KxtV34
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #229: 6fe0483e-0854-4d1f-9c01-dfaa5ee75d79.mp3, 61375eee-111f-48df-b4ff-d8fec33921e2, da3d3377-b685-463c-aa97-4d30921627b0, QmSRhV8Jb478mEqnTkv4sT4HyK2aE3MzhGAfL5jRSqcMVk, /file_storage/QmSRhV8Jb478mEqnTkv4sT4HyK2aE3MzhGAfL5jRSqcMVk
+duplicate multihash - QmSRhV8Jb478mEqnTkv4sT4HyK2aE3MzhGAfL5jRSqcMVk. skipping
+PROCESSING ROW #230: 1742d29e-fce7-455d-b751-fc5dac3718a3.mp3, 7017224e-9432-4ccd-9e78-93f606a9e15d, 696a7ec6-d851-46ef-9f2f-2a70f3fbde86, QmVUvkVVj7k7reHHPAjFui44eKFuSvfUvYRTdgzjkrRgku, /file_storage/QmVUvkVVj7k7reHHPAjFui44eKFuSvfUvYRTdgzjkrRgku
+duplicate multihash - QmVUvkVVj7k7reHHPAjFui44eKFuSvfUvYRTdgzjkrRgku. skipping
+PROCESSING ROW #231: d815829c-723e-41b3-8146-5fae6e873ee3.mp3, 59ed7980-7e92-4a84-a1e4-17f5f7aabc44, cfea450f-1ed1-4ed7-80d0-6f68a4b991bf, QmdGpDEBq6v6Kv9H61HbeVqyiPo7iBe12tVtkhNig6ipWp, /file_storage/QmdGpDEBq6v6Kv9H61HbeVqyiPo7iBe12tVtkhNig6ipWp
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
+PROCESSING ROW #232: 9613d306-ef93-4efc-a7e8-62822e1cd3c4.mp3, eb6ef52e-ac0d-4db2-baa5-231120a67c6f, 6e66301a-5e39-4bd2-864c-d6eba3221e3b, Qmd5znGMpo9sXhsU27ZGXU1xGeBZsXooa3y3uXYQFMpkkQ, /file_storage/Qmd5znGMpo9sXhsU27ZGXU1xGeBZsXooa3y3uXYQFMpkkQ
+stdout:  tar: removing leading '/' from member names
+
+stderr:  
+stdout:  
+stderr:  
+stdout:  
+stderr:  
+starting timeout of 500
+starting timeout of 1000
