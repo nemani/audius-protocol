@@ -58,12 +58,11 @@ const processSourceFile = async (workDir, sourceFileName, ipfs, transaction = nu
 
 
 const run = async () => {
-  const dataFilePath = '/usr/src/app/scripts/final-sourcefiles-cn2.txt'
+  const dataFilePath = '/usr/src/app/scripts/final-sourcefiles-cn1.txt'
   let data = fs.readFileSync(dataFilePath, 'utf8').split('\n')
 
   const ipfs = await initIPFS()
 
-  // const workDir = '/Users/sid/Documents/Audius/code/audius/sid-test/download-fix/staging/cn1-disk'
   const workDir = '/file_storage'
   
   let counter = 1
