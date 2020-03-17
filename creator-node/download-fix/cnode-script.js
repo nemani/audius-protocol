@@ -58,7 +58,7 @@ const processSourceFile = async (workDir, sourceFileName, ipfs, transaction = nu
 
 
 const run = async () => {
-  const dataFilePath = '/usr/src/app/scripts/final-sourcefiles-cn1.txt'
+  const dataFilePath = '/usr/src/app/scripts/final-sourcefiles-cn2.txt'
   let data = fs.readFileSync(dataFilePath, 'utf8').split('\n')
 
   const ipfs = await initIPFS()
