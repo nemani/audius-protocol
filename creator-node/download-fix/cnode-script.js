@@ -1,6 +1,5 @@
 const fs = require('fs')
 const path = require('path')
-const assert = require('assert')
 
 const ipfsClient = require('ipfs-http-client')
 
@@ -58,7 +57,7 @@ const processSourceFile = async (workDir, sourceFileName, ipfs, transaction = nu
 
 
 const run = async () => {
-  const dataFilePath = '/usr/src/app/scripts/final-sourcefiles-cn2.txt'
+  const dataFilePath = '/usr/src/app/scripts/final-sourcefiles-cn3.txt'
   let data = fs.readFileSync(dataFilePath, 'utf8').split('\n')
 
   const ipfs = await initIPFS()
@@ -67,14 +66,14 @@ const run = async () => {
   
   let counter = 1
   for (const row of data) {
-    
     if (!row) { continue }
-    
+
+    if (counter > 2) { break }
+
     const [sourceFile, v] = row.split(': ')
     const [cnodeUserUUID, trackUUID] = v.split(',')
 
     console.log(`SOURCEFILE: ${sourceFile} || CNODEUSERUUID: ${cnodeUserUUID} || TRACKUUID: ${trackUUID}`)
-    continue
     
     const { dstPath, multihash } = await processSourceFile(workDir, sourceFile, ipfs)
     
