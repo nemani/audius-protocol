@@ -10,6 +10,7 @@ class Playlists extends Base {
    * get full playlist objects, including tracks, for passed in array of playlistId
    * @param {Array} playlistId list of playlist ids
    * @param {number} targetUserId the user whose playlists we're trying to get
+   * @param {boolean} withUsers whether to return users nested within the collection objects
    * @returns {Array} array of playlist objects
    * additional metadata fields on playlist objects:
    *  {Integer} repost_count - repost count for given playlist
@@ -19,9 +20,9 @@ class Playlists extends Base {
    *  {Boolean} has_current_user_reposted - has current user reposted given playlist
    *  {Boolean} has_current_user_saved - has current user saved given playlist
    */
-  async getPlaylists (limit = 100, offset = 0, idsArray = null, targetUserId = null) {
+  async getPlaylists (limit = 100, offset = 0, idsArray = null, targetUserId = null, withUsers = false) {
     this.REQUIRES(Services.DISCOVERY_PROVIDER)
-    return this.discoveryProvider.getPlaylists(limit, offset, idsArray, targetUserId)
+    return this.discoveryProvider.getPlaylists(limit, offset, idsArray, targetUserId, withUsers)
   }
 
   /**
@@ -30,9 +31,9 @@ class Playlists extends Base {
    * @param {number} limit - max # of items to return
    * @param {number} offset - offset into list to return from (for pagination)
    */
-  async getSavedPlaylists (limit = 100, offset = 0) {
+  async getSavedPlaylists (limit = 100, offset = 0, withUsers = false) {
     this.REQUIRES(Services.DISCOVERY_PROVIDER)
-    return this.discoveryProvider.getSavedPlaylists(limit, offset)
+    return this.discoveryProvider.getSavedPlaylists(limit, offset, withUsers)
   }
 
   /**
@@ -41,9 +42,9 @@ class Playlists extends Base {
    * @param {number} limit - max # of items to return
    * @param {number} offset - offset into list to return from (for pagination)
    */
-  async getSavedAlbums (limit = 100, offset = 0) {
+  async getSavedAlbums (limit = 100, offset = 0, withUsers = false) {
     this.REQUIRES(Services.DISCOVERY_PROVIDER)
-    return this.discoveryProvider.getSavedAlbums(limit, offset)
+    return this.discoveryProvider.getSavedAlbums(limit, offset, withUsers)
   }
 
   /* ------- SETTERS ------- */
@@ -106,8 +107,9 @@ class Playlists extends Base {
    * Reorders the tracks in a playlist
    * @param {number} playlistId
    * @param {Array<number>} trackIds
+   * @param {number?} retriesOverride [Optional, defaults to web3Manager.sendTransaction retries default]
    */
-  async orderPlaylistTracks (playlistId, trackIds) {
+  async orderPlaylistTracks (playlistId, trackIds, retriesOverride) {
     this.REQUIRES(Services.DISCOVERY_PROVIDER)
     if (!Array.isArray(trackIds)) {
       throw new Error('Cannot order playlist - trackIds must be array')
@@ -136,7 +138,43 @@ class Playlists extends Base {
       }
     }
 
-    return this.contracts.PlaylistFactoryClient.orderPlaylistTracks(playlistId, trackIds)
+    return this.contracts.PlaylistFactoryClient.orderPlaylistTracks(playlistId, trackIds, retriesOverride)
+  }
+
+  /**
+   * Checks if a playlist has entered a corrupted state
+   * Check that each of the tracks within a playlist retrieved from discprov are in the onchain playlist
+   * Note: the onchain playlists stores the tracks as a mapping of track ID to track count and the
+   * track order is an event that is indexed by discprov. The track order event does not validate that the
+   * updated order of tracks has the correct track count, so a track order event w/ duplicate tracks can
+   * lead the playlist entering a corrupted state.
+   * @param {number} playlistId
+   */
+  async validateTracksInPlaylist (playlistId) {
+    this.REQUIRES(Services.DISCOVERY_PROVIDER, Services.CREATOR_NODE)
+
+    const userId = this.userStateManager.getCurrentUserId()
+    const playlistsReponse = await this.discoveryProvider.getPlaylists(1, 0, [playlistId], userId)
+
+    // error if playlist does not exist or hasn't been indexed by discovery provider
+    if (!Array.isArray(playlistsReponse) || !playlistsReponse.length) {
+      throw new Error('Cannot validate playlist - Playlist does not exist, is private and not owned by current user or has not yet been indexed by discovery provider')
+    }
+
+    const playlist = playlistsReponse[0]
+    const playlistTrackIds = playlist.playlist_contents.track_ids.map(a => a.track)
+
+    // Check if each track is in the playlist
+    const invalidTrackIds = []
+    for (let trackId of playlistTrackIds) {
+      const trackInPlaylist = await this.contracts.PlaylistFactoryClient.isTrackInPlaylist(playlistId, trackId)
+      if (!trackInPlaylist) invalidTrackIds.push(trackId)
+    }
+
+    return {
+      isValid: invalidTrackIds.length === 0,
+      invalidTrackIds
+    }
   }
 
   /**
@@ -185,7 +223,8 @@ class Playlists extends Base {
    * @param {number} userId
    * @param {number} playlistId
    */
-  async addPlaylistRepost (userId, playlistId) {
+  async addPlaylistRepost (playlistId) {
+    const userId = this.userStateManager.getCurrentUserId()
     return this.contracts.SocialFeatureFactoryClient.addPlaylistRepost(userId, playlistId)
   }
 
@@ -194,7 +233,8 @@ class Playlists extends Base {
    * @param {number} userId
    * @param {number} playlistId
    */
-  async deletePlaylistRepost (userId, playlistId) {
+  async deletePlaylistRepost (playlistId) {
+    const userId = this.userStateManager.getCurrentUserId()
     return this.contracts.SocialFeatureFactoryClient.deletePlaylistRepost(userId, playlistId)
   }
 
@@ -204,9 +244,10 @@ class Playlists extends Base {
    * @param {number} playlistId
    * @param {number} deletedTrackId
    * @param {string} deletedPlaylistTimestamp parseable timestamp (to be copied from playlist metadata)
+   * @param {number?} retriesOverride [Optional, defaults to web3Manager.sendTransaction retries default]
    */
-  async deletePlaylistTrack (playlistId, deletedTrackId, deletedPlaylistTimestamp) {
-    return this.contracts.PlaylistFactoryClient.deletePlaylistTrack(playlistId, deletedTrackId, deletedPlaylistTimestamp)
+  async deletePlaylistTrack (playlistId, deletedTrackId, deletedPlaylistTimestamp, retriesOverride) {
+    return this.contracts.PlaylistFactoryClient.deletePlaylistTrack(playlistId, deletedTrackId, deletedPlaylistTimestamp, retriesOverride)
   }
 
   /**
@@ -214,7 +255,8 @@ class Playlists extends Base {
    * @param {number} userId
    * @param {number} playlistId
    */
-  async addPlaylistSave (userId, playlistId) {
+  async addPlaylistSave (playlistId) {
+    const userId = this.userStateManager.getCurrentUserId()
     return this.contracts.UserLibraryFactoryClient.addPlaylistSave(userId, playlistId)
   }
 
@@ -223,7 +265,8 @@ class Playlists extends Base {
    * @param {number} userId
    * @param {number} playlistId
    */
-  async deletePlaylistSave (userId, playlistId) {
+  async deletePlaylistSave (playlistId) {
+    const userId = this.userStateManager.getCurrentUserId()
     return this.contracts.UserLibraryFactoryClient.deletePlaylistSave(userId, playlistId)
   }
 

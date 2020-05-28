@@ -252,6 +252,74 @@ const config = convict({
     format: String,
     default: null,
     env: 'awsSNSAndroidARN'
+  },
+  minGasPrice: {
+    doc: 'minimum gas price; 10 GWei, 10 * POA default gas price',
+    format: 'nat',
+    default: 10 * Math.pow(10, 9),
+    env: 'minGasPrice'
+  },
+  highGasPrice: {
+    doc: 'max gas price; 25 GWei, 2.5 * minGasPrice',
+    format: 'nat',
+    default: 25 * Math.pow(10, 9),
+    env: 'highGasPrice'
+  },
+  // ganache gas price is extremely high, so we hardcode a lower value (0x09184e72a0 from docs here)
+  ganacheGasPrice: {
+    doc: 'ganache gas price',
+    format: 'nat',
+    default: 39062500000,
+    env: 'ganacheGasPrice'
+  },
+  // 1011968 is used by default; 0xf7100 in hex
+  defaultGasLimit: {
+    doc: 'default gas limit',
+    format: String,
+    default: '0xf7100',
+    env: 'defaultGasLimit'
+  },
+  browserPushGCMAPIKey: {
+    doc: 'Google Cloud Messaging Browser Push Key',
+    format: String,
+    default: '',
+    env: 'browserPushGCMAPIKey'
+  },
+  browserPushVapidPublicKey: {
+    doc: 'Vapid Public Key for browser push notification',
+    format: String,
+    default: '',
+    env: 'browserPushVapidPublicKey'
+  },
+  browserPushVapidPrivateKey: {
+    doc: 'Vapid Private Key for browser push notifications',
+    format: String,
+    default: '',
+    env: 'browserPushVapidPrivateKey'
+  },
+  apnKeyId: {
+    doc: 'APN Key ID for safari browser push notifications',
+    format: String,
+    default: '',
+    env: 'apnKeyId'
+  },
+  apnTeamId: {
+    doc: 'APN Team ID for safari browser push notifications',
+    format: String,
+    default: '',
+    env: 'apnTeamId'
+  },
+  apnAuthKey: {
+    doc: 'APN Auth Key, read from a string into a file',
+    format: String,
+    default: '',
+    env: 'apnAuthKey'
+  },
+  environment: {
+    doc: 'Determines running on development, staging, or production',
+    format: String,
+    default: 'development',
+    env: 'environment'
   }
 })
 

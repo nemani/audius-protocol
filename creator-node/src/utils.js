@@ -16,7 +16,6 @@ class Utils {
 
 async function getFileUUIDForImageCID (req, imageCID) {
   const ipfs = req.app.get('ipfsAPI')
-
   if (imageCID) { // assumes imageCIDs are optional params
     // Ensure CID points to a dir, not file
     let cidIsFile = false
@@ -36,6 +35,8 @@ async function getFileUUIDForImageCID (req, imageCID) {
       const dirContents = await ipfs.ls(imageCID)
       req.logger.info(dirContents)
 
+      // Iterates through directory contents but returns upon first iteration
+      // TODO: refactor to remove for-loop
       for (let fileObj of dirContents) {
         if (!fileObj.hasOwnProperty('hash') || !fileObj.hash) {
           throw new Error(`Malformatted dir contents for dirCID ${imageCID}. Cannot process.`)
@@ -72,14 +73,20 @@ async function getIPFSPeerId (ipfs, config) {
   return ipfsIDObj
 }
 
-const wait = (ms) => new Promise((resolve, reject) => setTimeout(() => reject(new Error('Timeout')), ms))
-
-/** Cat single byte of file at given filepath. */
-const ipfsSingleByteCat = (path, req) => new Promise(async (resolve, reject) => {
+/** Cat single byte of file at given filepath. If ipfs.cat() call takes longer than the timeout time or
+ * something goes wrong, an error will be thrown.
+*/
+const ipfsSingleByteCat = (path, req, timeout = 1000) => new Promise(async (resolve, reject) => {
   const start = Date.now()
-  let ipfs = req.app.get('ipfsAPI')
+  let ipfs = req.app.get('ipfsLatestAPI')
+
   try {
-    await ipfs.cat(path, { length: 1 })
+    // ipfs.cat() returns an AsyncIterator<Buffer> and its results are iterated over in a for-loop
+    // don't keep track of the results as this call is a proof-of-concept that the file exists in ipfs
+    /* eslint-disable-next-line no-unused-vars */
+    for await (const chunk of ipfs.cat(path, { length: 1, timeout })) {
+      continue
+    }
     req.logger.info(`ipfsSingleByteCat - Retrieved ${path} in ${Date.now() - start}ms`)
     resolve()
   } catch (e) {
@@ -87,13 +94,6 @@ const ipfsSingleByteCat = (path, req) => new Promise(async (resolve, reject) => 
     reject(e)
   }
 })
-
-const parseSourcePath = (sourcePath) => {
-  if (sourcePath.includes('blob') || sourcePath.includes('Artwork')) {
-    sourcePath = sourcePath.split('/')[1]
-  }
-  return sourcePath
-}
 
 async function rehydrateIpfsFromFsIfNecessary (req, multihash, storagePath, filename = null) {
   let ipfs = req.app.get('ipfsAPI')
@@ -105,10 +105,7 @@ async function rehydrateIpfsFromFsIfNecessary (req, multihash, storagePath, file
 
   let rehydrateNecessary = false
   try {
-    await Promise.race([
-      wait(1000),
-      ipfsSingleByteCat(ipfsPath, req)]
-    )
+    await ipfsSingleByteCat(ipfsPath, req)
   } catch (e) {
     // Do not attempt to rehydrate as file, if cat() indicates CID is of a dir.
     if (e.message.includes('this dag node is a directory')) {
@@ -146,7 +143,7 @@ async function rehydrateIpfsFromFsIfNecessary (req, multihash, storagePath, file
       let sourceFilePath = entry.storagePath
       try {
         let bufferedFile = fs.readFileSync(sourceFilePath)
-        let originalSource = parseSourcePath(entry.sourceFile)
+        let originalSource = entry.sourceFile
         ipfsAddArray.push({
           path: originalSource,
           content: bufferedFile
@@ -176,13 +173,11 @@ async function rehydrateIpfsDirFromFsIfNecessary (req, dirHash) {
 
   let rehydrateNecessary = false
   for (let entry of findOriginalFileQuery) {
-    let sourcePath = parseSourcePath(entry.sourceFile)
+    let sourcePath = entry.sourceFile
     let ipfsPath = `${dirHash}/${sourcePath}`
     req.logger.info(`rehydrateIpfsDirFromFsIfNecessary, ipfsPath: ${ipfsPath}`)
     try {
-      await Promise.race([
-        wait(1000),
-        ipfsSingleByteCat(ipfsPath, req)])
+      ipfsSingleByteCat(ipfsPath, req)
     } catch (e) {
       rehydrateNecessary = true
       req.logger.info(`rehydrateIpfsDirFromFsIfNecessary - error condition met ${ipfsPath}, ${e}`)
@@ -223,3 +218,4 @@ module.exports.getFileUUIDForImageCID = getFileUUIDForImageCID
 module.exports.getIPFSPeerId = getIPFSPeerId
 module.exports.rehydrateIpfsFromFsIfNecessary = rehydrateIpfsFromFsIfNecessary
 module.exports.rehydrateIpfsDirFromFsIfNecessary = rehydrateIpfsDirFromFsIfNecessary
+module.exports.ipfsSingleByteCat = ipfsSingleByteCat

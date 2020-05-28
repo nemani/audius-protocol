@@ -1,4 +1,4 @@
-const _ = require('lodash')
+const { pick } = require('lodash')
 const { Base, Services } = require('./base')
 const Utils = require('../utils')
 const CreatorNode = require('../services/creatorNode')
@@ -22,7 +22,7 @@ const USER_REQUIRED_PROPS = [
 ]
 
 class Users extends Base {
-  /* ------- GETTERS ------- */
+  /* ----------- GETTERS ---------- */
 
   /**
    * get users with all relevant user data
@@ -57,13 +57,16 @@ class Users extends Base {
   /**
    * get intersection of users that follow followeeUserId and users that are followed by followerUserId
    * @param {number} followeeUserId user that is followed
-   * @param {number} followerUserId user that follows
    * @example
-   * getFollowIntersectionUsers(100, 0, 1, 1) - IDs must be valid
+   * getMutualFollowers(100, 0, 1, 1) - IDs must be valid
    */
-  async getFollowIntersectionUsers (limit = 100, offset = 0, followeeUserId, followerUserId) {
+  async getMutualFollowers (limit = 100, offset = 0, followeeUserId) {
     this.REQUIRES(Services.DISCOVERY_PROVIDER)
-    return this.discoveryProvider.getFollowIntersectionUsers(limit, offset, followeeUserId, followerUserId)
+    const followerUserId = this.userStateManager.getCurrentUserId()
+    if (followerUserId) {
+      return this.discoveryProvider.getFollowIntersectionUsers(limit, offset, followeeUserId, followerUserId)
+    }
+    return []
   }
 
   /**
@@ -103,9 +106,9 @@ class Users extends Base {
    *  {Boolean} has_current_user_reposted - has current user reposted given track/playlist
    *  {Array} followee_reposts - followees of current user that have reposted given track/playlist
    */
-  async getUserRepostFeed (userId, filter, limit = 100, offset = 0) {
+  async getUserRepostFeed (userId, filter, limit = 100, offset = 0, withUsers = false) {
     this.REQUIRES(Services.DISCOVERY_PROVIDER)
-    return this.discoveryProvider.getUserRepostFeed(userId, filter, limit, offset)
+    return this.discoveryProvider.getUserRepostFeed(userId, filter, limit, offset, withUsers)
   }
 
   /**
@@ -122,9 +125,27 @@ class Users extends Base {
    *  {Boolean} has_current_user_reposted - has current user reposted given track/playlist
    *  {Array} followee_reposts - followees of current user that have reposted given track/playlist
    */
-  async getSocialFeed (filter, limit = 100, offset = 0) {
+  async getSocialFeed (filter, limit = 100, offset = 0, withUsers = false, tracksOnly = false) {
     this.REQUIRES(Services.DISCOVERY_PROVIDER)
-    return this.discoveryProvider.getSocialFeed(filter, limit, offset)
+    const owner = this.userStateManager.getCurrentUser()
+    if (owner) {
+      return this.discoveryProvider.getSocialFeed(filter, limit, offset, withUsers, tracksOnly)
+    }
+
+    return []
+  }
+
+  /**
+   * Returns the top users for the specified genres
+   * @param {number} limit - max # of items to return
+   * @param {number} offset - offset into list to return from (for pagination)
+   * @param {Object} {Array of genres} - filter by genres ie. "Rock", "Alternative"
+   * @param {Boolean} with_users - If the userIds should be returned or the full user metadata
+   * @returns {Object} {Array of user objects if with_users set, else array of userIds}
+   */
+  async getTopCreatorsByGenres (genres, limit = 30, offset = 0, withUsers = false) {
+    this.REQUIRES(Services.DISCOVERY_PROVIDER)
+    return this.discoveryProvider.getTopCreatorsByGenres(genres, limit, offset, withUsers)
   }
 
   /* ------- SETTERS ------- */
@@ -344,7 +365,8 @@ class Users extends Base {
    * @param {number} followerUserId who is following
    * @param {number} followeeUserId who is being followed...
   */
-  async addUserFollow (followerUserId, followeeUserId) {
+  async addUserFollow (followeeUserId) {
+    const followerUserId = this.userStateManager.getCurrentUserId()
     return this.contracts.SocialFeatureFactoryClient.addUserFollow(followerUserId, followeeUserId)
   }
 
@@ -353,7 +375,8 @@ class Users extends Base {
    * @param {number} followerUserId who is no longer following
    * @param {number} followeeUserId who is no longer being followed...
   */
-  async deleteUserFollow (followerUserId, followeeUserId) {
+  async deleteUserFollow (followeeUserId) {
+    const followerUserId = this.userStateManager.getCurrentUserId()
     return this.contracts.SocialFeatureFactoryClient.deleteUserFollow(followerUserId, followeeUserId)
   }
 
@@ -452,7 +475,7 @@ class Users extends Base {
   }
 
   _cleanUserMetadata (metadata) {
-    return _.pick(metadata, USER_PROPS.concat('user_id'))
+    return pick(metadata, USER_PROPS.concat('user_id'))
   }
 }
 

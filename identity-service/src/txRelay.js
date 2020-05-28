@@ -11,14 +11,11 @@ const { AudiusABIDecoder } = require('@audius/libs')
 const primaryWeb3 = new Web3(new Web3.providers.HttpProvider(config.get('web3Provider')))
 const secondaryWeb3 = new Web3(new Web3.providers.HttpProvider(config.get('secondaryWeb3Provider')))
 
-const MIN_GAS_PRICE = 10 * Math.pow(10, 9) // 10 GWei, 10 * POA default gas price
-const HIGH_GAS_PRICE = 2.5 * MIN_GAS_PRICE // 25 GWei
-const GANACHE_GAS_PRICE = 39062500000 // ganache gas price is extremely high, so we hardcode a lower value (0x09184e72a0 from docs here)
+const MIN_GAS_PRICE = config.get('minGasPrice')
+const HIGH_GAS_PRICE = config.get('highGasPrice')
+const GANACHE_GAS_PRICE = config.get('ganacheGasPrice')
+const DEFAULT_GAS_LIMIT = config.get('defaultGasLimit')
 
-// 1011968 is used by default
-const DEFAULT_GAS_LIMIT = '0xf7100'
-
-// this is incremented by the code below, but will not work as expected if there are
 // multiple instances of the identity service using the same Ethereum account
 let currentRelayerAccountNonce
 let nonceLocked = false
@@ -27,37 +24,32 @@ async function delay (ms) {
   return new Promise(resolve => setTimeout(resolve, ms))
 }
 
+async function getGasPrice (req, web3) {
+  let gasPrice = parseInt(await web3.eth.getGasPrice())
+  if (isNaN(gasPrice) || gasPrice > HIGH_GAS_PRICE) {
+    req.logger.info('txRelay - gas price was not defined or was greater than HIGH_GAS_PRICE', gasPrice)
+    gasPrice = GANACHE_GAS_PRICE
+  } else if (gasPrice === 0) {
+    req.logger.info('txRelay - gas price was zero', gasPrice)
+    // If the gas is zero, the txn will likely never get mined.
+    gasPrice = MIN_GAS_PRICE
+  } else if (gasPrice < MIN_GAS_PRICE) {
+    req.logger.info('txRelay - gas price was less than MIN_GAS_PRICE', gasPrice)
+    gasPrice = MIN_GAS_PRICE
+  }
+  gasPrice = '0x' + gasPrice.toString(16)
+
+  return gasPrice
+}
+
 /** Attempt to send transaction to primary web3 provider, if that fails try secondary */
-const sendTransaction = async (
-  contractRegistryKey,
-  contractAddress,
-  encodedABI,
-  senderAddress,
-  resetNonce = false,
-  txGasLimit = null
-) => {
+const sendTransaction = async (req, resetNonce = false, txProps, reqBodySHA) => {
   let resp = null
   try {
-    resp = await sendTransactionInternal(
-      contractRegistryKey,
-      contractAddress,
-      encodedABI,
-      senderAddress,
-      primaryWeb3,
-      resetNonce,
-      txGasLimit
-    )
+    resp = await sendTransactionInternal(req, primaryWeb3, resetNonce, txProps, reqBodySHA)
   } catch (e) {
-    logger.error(`sendTransaction Error - ${e}. Retrying with secondary web3.`)
-    resp = await sendTransactionInternal(
-      contractRegistryKey,
-      contractAddress,
-      encodedABI,
-      senderAddress,
-      secondaryWeb3,
-      resetNonce,
-      txGasLimit
-    )
+    req.logger.error(`txRelay - sendTransaction Error - ${e}. Retrying with secondary web3.`)
+    resp = await sendTransactionInternal(req, secondaryWeb3, resetNonce, txProps, reqBodySHA)
   }
   return resp
 }
@@ -68,15 +60,16 @@ const sendTransaction = async (
  *  contracts (eg. storage contracts, discovery service contract, should not be allowed
  *  to relay TXes from here but can today).
  */
-const sendTransactionInternal = async (
-  contractRegistryKey,
-  contractAddress,
-  encodedABI,
-  senderAddress,
-  web3,
-  resetNonce = false,
-  txGasLimit = null
-) => {
+const sendTransactionInternal = async (req, web3, resetNonce = false, txProps, reqBodySHA) => {
+  const {
+    contractRegistryKey,
+    contractAddress,
+    encodedABI,
+    senderAddress,
+    gasLimit
+  } = txProps
+  const redis = req.app.get('redis')
+
   const existingTx = await models.Transaction.findOne({
     where: {
       encodedABI: encodedABI // this should always be unique because of the nonce / sig
@@ -98,16 +91,7 @@ const sendTransactionInternal = async (
     throw new Error('Invalid relayerPublicKey')
   }
 
-  let gasPrice = parseInt(await web3.eth.getGasPrice())
-  if (isNaN(gasPrice) || gasPrice > HIGH_GAS_PRICE) {
-    gasPrice = GANACHE_GAS_PRICE
-  } else if (gasPrice === 0) {
-    // If the gas is zero, the txn will likely never get mined.
-    gasPrice = MIN_GAS_PRICE
-  } else if (gasPrice < MIN_GAS_PRICE) {
-    gasPrice = MIN_GAS_PRICE
-  }
-  gasPrice = '0x' + gasPrice.toString(16)
+  const gasPrice = await getGasPrice(req, web3)
 
   // crude spinlock
   while (nonceLocked) { // eslint-disable-line
@@ -128,7 +112,7 @@ const sendTransactionInternal = async (
     const txParams = {
       nonce: web3.utils.toHex(currentNonce),
       gasPrice: gasPrice,
-      gasLimit: txGasLimit ? web3.utils.numberToHex(txGasLimit) : DEFAULT_GAS_LIMIT,
+      gasLimit: gasLimit ? web3.utils.numberToHex(gasLimit) : DEFAULT_GAS_LIMIT,
       to: contractAddress,
       data: encodedABI,
       value: '0x00'
@@ -143,24 +127,42 @@ const sendTransactionInternal = async (
     // not get a tx hash back, the nonce is still available for use by others. For this
     // reason, we wait for this promise to resolve with a tx hash before incrementing
     // the current nonce)
+    const redisLogParams = {
+      date: Math.floor(Date.now() / 1000),
+      reqBodySHA,
+      txParams,
+      senderAddress,
+      currentNonce
+    }
+    await redis.zadd('relayTxAttempts', Math.floor(Date.now() / 1000), JSON.stringify(redisLogParams))
+    req.logger.info(`txRelay - sending a transaction for wallet ${senderAddress}, req ${reqBodySHA}, gasPrice ${parseInt(gasPrice, 16)}, gasLimit ${gasLimit}, nonce ${currentNonce}`)
+
     receiptPromise = web3.eth.sendSignedTransaction(signedTx)
+    // use a promi-event for this web3 call
+    // https://web3js.readthedocs.io/en/v1.2.0/callbacks-promises-events.html#promievent
     const prom = new Promise(function (resolve, reject) {
       let resolved = false
-      receiptPromise.once('transactionHash', function (hash) {
+      receiptPromise.once('transactionHash', async function (hash) {
+        await redis.hset('txHashToSenderAddress', hash, senderAddress)
         resolved = true
         resolve(hash)
-      }).on('error', function (error) {
+      }).on('error', async function (error) {
         if (!resolved) {
+          await redis.zadd('relayTxFailures', Math.floor(Date.now() / 1000), JSON.stringify(redisLogParams))
           reject(error)
         }
       })
     })
+
     await prom // resolves when a hash exists for a transaction, proving that it has not errored
+    await redis.zadd('relayTxSuccesses', Math.floor(Date.now() / 1000), JSON.stringify(redisLogParams))
     currentRelayerAccountNonce++
   } finally {
     nonceLocked = false
   }
 
+  // if this promise resolves, it continues to the next step
+  // if it errors, the reject is caught by the calling function in the try/catch and handled
   const receipt = await receiptPromise
 
   await models.Transaction.create({

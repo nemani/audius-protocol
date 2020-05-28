@@ -6,10 +6,9 @@
     "start": "nodemon src/index.js | ./node_modules/.bin/bunyan || exit 0",
     "test": "./scripts/run-tests.sh",
     "coverage": "nyc npm run test",
-    "report": "nyc report --reporter=html", 
+    "report": "nyc report --reporter=html",
     "lint": "./node_modules/.bin/standard",
-    "lint-fix": "./node_modules/.bin/standard --fix",
-    "psql": "psql -U postgres -h localhost -p 4432 -d audius_creator_node"
+    "lint-fix": "./node_modules/.bin/standard --fix"
   },
   "keywords": [],
   "author": "",
@@ -37,6 +36,7 @@
     "ffprobe-static": "^3.0.0",
     "ioredis": "^4.9.3",
     "ipfs-http-client": "^33.1.1",
+    "ipfs-http-client-latest": "npm:ipfs-http-client@^42.0.0",
     "jimp": "^0.6.1",
     "lodash": "^4.17.15",
     "multer": "^1.4.0",
