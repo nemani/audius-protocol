@@ -9,7 +9,6 @@ const { handleResponse, successResponse, errorResponseBadRequest, errorResponseS
 const { getFileUUIDForImageCID, rehydrateIpfsFromFsIfNecessary } = require('../utils')
 const { authMiddleware, ensurePrimaryMiddleware, syncLockMiddleware, triggerSecondarySyncs } = require('../middlewares')
 const TranscodingQueue = require('../TranscodingQueue')
-const nucypher = require('./nucypher')
 
 
 module.exports = function (app) {
@@ -503,10 +502,4 @@ async function createDownloadableCopy (req, fileName) {
   } catch (err) {
     req.logger.error(err)
   }
-}
-
-async function grantAccessToTrack(req) {
-  const { sourceFile, bobPublicKey } = req.body
-  await nucypher.grantAccess(sourceFile, bobPublicKey)
-
 }

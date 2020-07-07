@@ -12,7 +12,7 @@ function initAlice({logContext}){
         logger.info(`Calling initAlice...`)
 
         const args = [
-            '/app/run.py',
+            '/usr/src/app/nucypher/run.py',
             'initialize_alice'
         ]
 
@@ -45,7 +45,7 @@ function getPolicyEncryptKey(song_title, { logContext }) {
         logger.info(`Calling getPolicyEncryptKey...`)
 
         const args = [
-            '/app/run.py',
+            '/usr/src/app/nucypher/run.py',
             'get_policy_pubkey',
             '--label', song_title
         ]
@@ -77,7 +77,7 @@ function grantAccess(bob_pubkeys, fileName, { logContext }) {
         logger.info(`Granting Access to bob for label ${fileName}...`)
 
         const args = [
-            '/app/run.py',
+            '/usr/src/app/nucypher/run.py',
             'grant_access_policy',
             '--label', fileName,
             '--bobpubkeys', bob_pubkeys
@@ -113,7 +113,7 @@ function encryptDir(dirPath, fileName, { logContext }) {
         logger.info(`Encrypting DIR ${dirPath}...`)
 
         const args = [
-            '/app/run.py',
+            '/usr/src/app/nucypher/run.py',
             'encrypt_track_segments',
             '--dirPath', dirPath + '/segments',
             '--policypubkeyHex', getPolicyEncryptKey(fileName)

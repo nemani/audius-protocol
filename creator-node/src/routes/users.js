@@ -9,12 +9,26 @@ const { authMiddleware, syncLockMiddleware } = require('../middlewares')
 const { handleResponse, successResponse, errorResponseBadRequest } = require('../apiHelpers')
 const sessionManager = require('../sessionManager')
 const utils = require('../utils')
+const nucypher = require("../nucypher");
 
 const CHALLENGE_VALUE_LENGTH = 20
 const CHALLENGE_TTL_SECONDS = 120
 const CHALLENGE_PREFIX = 'userLoginChallenge:'
 
 module.exports = function (app) {
+    app.get("/users/initAlice",handleResponse(async (req, res, next) => {
+        metadataJson = await nucypher.initAlice({ logContext: req.logContext });
+        return successResponse();
+      })
+    );
+
+  app.post("/users/grantAccess", handleResponse(async (req, res, next) => {
+      const { sourceFile, bobPublicKey } = req.body;
+      metadataJson = await nucypher.grantAccess(sourceFile, bobPublicKey);
+      return successResponse(metadataJson);
+    })
+  );
+
   app.post('/users', handleResponse(async (req, res, next) => {
     let walletAddress = req.body.walletAddress
     if (!ethereumUtils.isValidAddress(walletAddress)) {

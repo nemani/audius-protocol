@@ -2,9 +2,13 @@ FROM nikolaik/python-nodejs:python3.8-nodejs10
 RUN apt-get install make
 
 WORKDIR /usr/src/app
-COPY . .
 
+RUN pip3 install nucypher
+
+COPY package*.json ./
 RUN npm install
+
+COPY . .
 
 # Add the wait script to the image
 # Script originally from https://github.com/ufoscout/docker-compose-wait/releases/download/2.4.0/wait /usr/bin/wait
@@ -15,16 +19,10 @@ VOLUME "/file_storage"
 ENV storagePath=/file_storage
 
 EXPOSE 8000
+EXPOSE 11500
+EXPOSE 11501
 
 ARG git_sha
 ENV GIT_SHA=$git_sha
 
-# Extra python env
-ENV PYTHONDONTWRITEBYTECODE=1
-ENV PYTHONUNBUFFERED=1
-ENV PIP_DISABLE_PIP_VERSION_CHECK=1
-
-RUN pip3 install nucypher
-
-WORKDIR /usr/src/app
-CMD ["sh", "-c", "/usr/bin/wait && exec node src/index.js"]
+CMD ["sh", "-c", "./scripts/endpoint.sh"]
