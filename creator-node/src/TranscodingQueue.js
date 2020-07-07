@@ -3,6 +3,7 @@ const os = require('os')
 const config = require('./config')
 const ffmpeg = require('./ffmpeg')
 const { logger: genericLogger } = require('./logging')
+const nucypher = require('./nucypher')
 
 const transcodingMaxConcurrency = config.get('transcodingMaxConcurrency')
 
@@ -41,7 +42,9 @@ class TranscodingQueue {
         fileName,
         { logContext }
       )
-      done(null, { filePaths })
+
+      const encryptedFilePaths = await nucypher.encryptDir(fileDir, fileName);
+      done(null, { encryptedFilePaths, filePaths })
     })
 
     this.queue.process(PROCESS_NAMES.transcode320, /* inherited */ 0, async (job, done) => {
@@ -54,7 +57,10 @@ class TranscodingQueue {
         fileName,
         { logContext }
       )
-      done(null, { filePath })
+
+      const encryptedFileDir = await nucypher.encryptDir(fileDir, fileName);
+      const encryptedFilePath = encryptedFileDir + fileName
+      done(null, { encryptedFilePath, filePath })
     })
 
     this.logStatus = this.logStatus.bind(this)

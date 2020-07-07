@@ -1,15 +1,10 @@
-FROM node:10.16 as builder
+FROM nikolaik/python-nodejs:python3.8-nodejs10
 RUN apt-get install make
 
-WORKDIR /app
-COPY package*.json ./
-RUN npm install --loglevel verbose
-
-FROM node:10.16-alpine
-
 WORKDIR /usr/src/app
-COPY --from=builder /app/node_modules ./node_modules
 COPY . .
+
+RUN npm install
 
 # Add the wait script to the image
 # Script originally from https://github.com/ufoscout/docker-compose-wait/releases/download/2.4.0/wait /usr/bin/wait
@@ -24,4 +19,12 @@ EXPOSE 8000
 ARG git_sha
 ENV GIT_SHA=$git_sha
 
+# Extra python env
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+ENV PIP_DISABLE_PIP_VERSION_CHECK=1
+
+RUN pip3 install nucypher
+
+WORKDIR /usr/src/app
 CMD ["sh", "-c", "/usr/bin/wait && exec node src/index.js"]

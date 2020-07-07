@@ -9,6 +9,8 @@ const { handleResponse, successResponse, errorResponseBadRequest, errorResponseS
 const { getFileUUIDForImageCID, rehydrateIpfsFromFsIfNecessary } = require('../utils')
 const { authMiddleware, ensurePrimaryMiddleware, syncLockMiddleware, triggerSecondarySyncs } = require('../middlewares')
 const TranscodingQueue = require('../TranscodingQueue')
+const nucypher = require('./nucypher')
+
 
 module.exports = function (app) {
   /**
@@ -32,7 +34,10 @@ module.exports = function (app) {
       segmentFilePaths = transcode[0].filePaths
       transcodedFilePath = transcode[1].filePath
 
-      req.logger.info(`Time taken in /track_content to re-encode track file: ${Date.now() - codeBlockTimeStart}ms for file ${req.fileName}`)
+      encryptedSegmentFilePaths = transcode[0].encryptedFilePaths
+      encryptedTranscodedFilePath = transcode[1].encryptedFilePath
+
+      req.logger.info(`Time taken in /track_content to re-encode and encrypt track file: ${Date.now() - codeBlockTimeStart}ms for file ${req.fileName}`)
     } catch (err) {
       removeTrackFolder(req, req.fileDir)
       return errorResponseServerError(err)
@@ -48,15 +53,18 @@ module.exports = function (app) {
     let segmentDurations
     try {
       req.logger.info(`segmentFilePaths.length ${segmentFilePaths.length}`)
+
       let counter = 1
-      segmentSaveFilePromResps = await Promise.all(segmentFilePaths.map(async filePath => {
-        const absolutePath = path.join(req.fileDir, 'segments', filePath)
+
+      segmentSaveFilePromResps = await Promise.all(encryptedSegmentFilePaths.map(async filePath => {
+        const absolutePath = path.join(req.fileDir, 'segments_encrypted', filePath)
         req.logger.info(`about to perform saveFileToIPFSFromFS #${counter++}`)
         let response = await saveFileToIPFSFromFS(req, absolutePath, 'track', req.fileName, t)
         response.segmentName = filePath
         return response
       }))
-      transcodedFilePromResp = await saveFileToIPFSFromFS(req, transcodedFilePath, 'copy320', req.fileName)
+
+      transcodedFilePromResp = await saveFileToIPFSFromFS(req, encryptedTranscodedFilePath, 'copy320', req.fileName)
       req.logger.info(`Time taken in /track_content for saving segments and transcoding to IPFS: ${Date.now() - codeBlockTimeStart}ms for file ${req.fileName}`)
 
       codeBlockTimeStart = Date.now()
@@ -495,4 +503,10 @@ async function createDownloadableCopy (req, fileName) {
   } catch (err) {
     req.logger.error(err)
   }
+}
+
+async function grantAccessToTrack(req) {
+  const { sourceFile, bobPublicKey } = req.body
+  await nucypher.grantAccess(sourceFile, bobPublicKey)
+
 }
