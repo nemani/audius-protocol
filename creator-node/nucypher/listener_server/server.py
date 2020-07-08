@@ -27,7 +27,8 @@ def decrypt_track(label, ipfsHash):
     data = listener.reencrypt_segment(enc_data, LABEL_TO_POLICY[label], LISTENER)
     if not data:
         print("Error decoding hash ", ipfsHash)
-    return label
+
+    return Response(data, mimetype='application/octet-stream')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port=20000)
