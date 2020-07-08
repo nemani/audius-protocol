@@ -19,10 +19,8 @@ def join():
     LABEL_TO_POLICY[label] = policy_metadata
     return label
 
-@app.route('/decrypt', methods = ["POST"])
-def decrypt_track():
-    label = request.json["label"]
-    ipfsHash = request.json["ipfsHash"]
+@app.route('/decrypt/<label>/<ipfsHash>', methods = ["GET"])
+def decrypt_track(label, ipfsHash):
     enc_data = api.get(ipfsHash)
     print("Fetching encrypted track segment from ipfs", enc_data)
     data = listener.reencrypt_segment(enc_data, LABEL_TO_POLICY[label], LISTENER)

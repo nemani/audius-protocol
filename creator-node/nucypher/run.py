@@ -1,7 +1,5 @@
 import argparse
 import artist
-import listener
-import listener_keys
 import track_encrypt
 
 import json
