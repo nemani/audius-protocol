@@ -4,6 +4,8 @@ import listener
 import listener_keys
 import track_encrypt
 
+import json
+
 from umbral.keys import UmbralPublicKey
 
 parser = argparse.ArgumentParser()
@@ -25,5 +27,14 @@ if args.function == 'encrypt_track_segments':
     policy_key = UmbralPublicKey.from_bytes(bytes.fromhex(args.policypubkeyHex))
     track_encrypt.encrypt_track_segments(policy_key, args.dirPath)
 
+if args.function == 'encrypt_file':
+    policy_key = UmbralPublicKey.from_bytes(bytes.fromhex(args.policypubkeyHex))
+    track_encrypt.encrypt_track(policy_key, args.dirPath)
+
 if args.function == 'grant_access_policy':
-    artist.grant_access_policy(args.label, args.bobpubkeys)
+    bob_pub_keys = json.loads(args.bobpubkeys)
+    bobpubkeys = {}
+    bobpubkeys["enc"] = UmbralPublicKey.from_bytes(bytes.fromhex(bob_pub_keys["enc"]))
+    bobpubkeys["sig"] = UmbralPublicKey.from_bytes(bytes.fromhex(bob_pub_keys["sig"]))
+
+    artist.grant_access_policy(args.label, bobpubkeys)

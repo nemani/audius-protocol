@@ -60,7 +60,8 @@ function getPolicyEncryptKey(song_title, { logContext }) {
 
         proc.on('close', (code) => {
             if (code === 0) {
-                hexPolicy = stdout;
+                logger.info(stdout.split(/\r?\n/).slice(-2)[0]);
+                hexPolicy = stdout.split(/\r?\n/).slice(-2)[0];
                 resolve(hexPolicy)
             } else {
                 logger.error('Error while init')
@@ -93,7 +94,8 @@ function grantAccess(bob_pubkeys, fileName, { logContext }) {
 
         proc.on('close', (code) => {
             if (code === 0) {
-                resolve(stdout);
+                logger.info(stdout.split(/\r?\n/).slice(-2)[0]);
+                resolve(stdout.split(/\r?\n/).slice(-2)[0]);
             } else {
                 logger.error('Error while init')
                 logger.error('Command stdout:', stdout, '\nCommand stderr:', stderr)
@@ -107,7 +109,7 @@ function grantAccess(bob_pubkeys, fileName, { logContext }) {
  * Given a dir containing track segments and the keys of the creators
  * Encrypt all of the files 
  */
-function encryptDir(dirPath, fileName, { logContext }) {
+function encryptDir(dirPath, policyKey, { logContext }) {
     const logger = genericLogger.child(logContext)
     return new Promise((resolve, reject) => {
         logger.info(`Encrypting DIR ${dirPath}...`)
@@ -116,7 +118,7 @@ function encryptDir(dirPath, fileName, { logContext }) {
             '/usr/src/app/nucypher/run.py',
             'encrypt_track_segments',
             '--dirPath', dirPath + '/segments',
-            '--policypubkeyHex', getPolicyEncryptKey(fileName)
+            '--policypubkeyHex', policyKey
         ]
 
         const proc = spawn('python3', args)
@@ -124,12 +126,18 @@ function encryptDir(dirPath, fileName, { logContext }) {
         // capture output
         let stdout = ''
         let stderr = ''
-        proc.stdout.on('data', (data) => (stdout += data.toString()))
-        proc.stderr.on('data', (data) => (stderr += data.toString()))
+        proc.stdout.on('data', (data) => (stdout += data.toString() + "\n"))
+        proc.stderr.on('data', (data) => (stderr += data.toString() + "\n"))
 
         proc.on('close', (code) => {
             if (code === 0) {
-                const encryptedFilePaths = fs.readdirSync(fileDir + '/segments_encrypted')
+                logger.info(
+                    "Command stdout:",
+                    stdout,
+                    "\nCommand stderr:",
+                    stderr
+                );
+                const encryptedFilePaths = fs.readdirSync(dirPath + '/segments_encrypted')
                 resolve(encryptedFilePaths)
             } else {
                 logger.error('Error while init')
@@ -140,4 +148,42 @@ function encryptDir(dirPath, fileName, { logContext }) {
     })
 }
 
-module.exports = { encryptDir, getPolicyEncryptKey, initAlice }
+function encryptFile(filePath, policyKey, { logContext }) {
+    const logger = genericLogger.child(logContext)
+    return new Promise((resolve, reject) => {
+        logger.info(`Encrypting File ${filePath}...`)
+
+        const args = [
+            '/usr/src/app/nucypher/run.py',
+            'encrypt_file',
+            '--dirPath', filePath,
+            '--policypubkeyHex', policyKey
+        ]
+
+        const proc = spawn('python3', args)
+
+        // capture output
+        let stdout = ''
+        let stderr = ''
+        proc.stdout.on('data', (data) => (stdout += data.toString() + "\n"))
+        proc.stderr.on('data', (data) => (stderr += data.toString() + "\n"))
+
+        proc.on('close', (code) => {
+            if (code === 0) {
+                logger.info(
+                    "Command stdout:",
+                    stdout,
+                    "\nCommand stderr:",
+                    stderr
+                );
+                const encryptedFilePath = filePath + '_encrypted'
+                resolve(encryptedFilePath)
+            } else {
+                logger.error('Error while init')
+                logger.error('Command stdout:', stdout, '\nCommand stderr:', stderr)
+                reject(new Error('nucypher Error'))
+            }
+        })
+    })
+}
+module.exports = { encryptDir, getPolicyEncryptKey, initAlice, grantAccess, encryptFile }

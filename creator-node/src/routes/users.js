@@ -23,9 +23,26 @@ module.exports = function (app) {
     );
 
   app.post("/users/grantAccess", handleResponse(async (req, res, next) => {
-      const { sourceFile, bobPublicKey } = req.body;
-      metadataJson = await nucypher.grantAccess(sourceFile, bobPublicKey);
-      return successResponse(metadataJson);
+      const { trackId, bobPublicKey } = req.body;
+      const { trackUUID, metadataJSON } = await models.Track.findOne({
+        attributes: ['trackUUID', 'metadataJSON'],
+        where: {
+          blockchainId: trackId
+        }
+      })
+
+      const firstSegment = metadataJSON.track_segments[0]
+      if (!firstSegment) return errorResponseServerError('No segment found for track')
+
+      const file = await models.File.findOne({
+        where: {
+            multihash: firstSegment.multihash,
+            trackUUID
+          }
+      })
+      
+    let data = await nucypher.grantAccess(JSON.stringify(bobPublicKey), file.sourceFile, { logContext: req.logContext });
+    return successResponse({data});
     })
   );
 

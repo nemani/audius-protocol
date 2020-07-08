@@ -21,6 +21,7 @@ module.exports = function (app) {
     if (req.fileFilterError) return errorResponseBadRequest(req.fileFilterError)
     const routeTimeStart = Date.now()
     let codeBlockTimeStart = Date.now()
+      // req.logger.info(`Time taken in /track_content to re-encode and encrypt track file: ${Date.now() - codeBlockTimeStart}ms for file ${req.fileName}`)
 
     // create and save track file transcoded version and segments to disk
     let transcodedFilePath
@@ -35,6 +36,10 @@ module.exports = function (app) {
 
       encryptedSegmentFilePaths = transcode[0].encryptedFilePaths
       encryptedTranscodedFilePath = transcode[1].encryptedFilePath
+
+      req.logger.info("\n\n\n\n\n")
+      req.logger.info(segmentFilePaths, transcodedFilePath, encryptedSegmentFilePaths,encryptedTranscodedFilePath)
+      req.logger.info("\n\n\n\n\n")
 
       req.logger.info(`Time taken in /track_content to re-encode and encrypt track file: ${Date.now() - codeBlockTimeStart}ms for file ${req.fileName}`)
     } catch (err) {

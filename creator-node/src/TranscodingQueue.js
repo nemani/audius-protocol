@@ -42,8 +42,9 @@ class TranscodingQueue {
         fileName,
         { logContext }
       )
-
-      const encryptedFilePaths = await nucypher.encryptDir(fileDir, fileName, {
+      
+      const policyKey = await nucypher.getPolicyEncryptKey(fileName, {logContext});
+      const encryptedFilePaths = await nucypher.encryptDir(fileDir, policyKey, {
         logContext,
       });
       done(null, { encryptedFilePaths, filePaths })
@@ -59,11 +60,11 @@ class TranscodingQueue {
         fileName,
         { logContext }
       )
-
-      const encryptedFileDir = await nucypher.encryptDir(fileDir, fileName, {
+      
+      const policyKey = await nucypher.getPolicyEncryptKey(fileName, {logContext});
+      const encryptedFilePath = await nucypher.encryptFile(filePath, policyKey, {
         logContext,
       });
-      const encryptedFilePath = encryptedFileDir + fileName
       done(null, { encryptedFilePath, filePath })
     })
 
