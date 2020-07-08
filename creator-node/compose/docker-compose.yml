@@ -13,7 +13,7 @@ services:
       - audius_dev
   creator-node:
     build: ../.
-    command: sh -c '/usr/bin/wait && exec ./node_modules/.bin/nodemon src/index.js | ./node_modules/.bin/bunyan'
+    command: sh -c './scripts/endpoint.sh'
     depends_on:
       - creator-node-db
       - creator-node-redis
@@ -26,6 +26,7 @@ services:
       - ./env/base.env
     ports:
       - '${CREATOR_NODE_HOST_PORT}:4000'
+      - 20000
     volumes:
       - file_storage:/file_storage
       - ..:/usr/src/app
